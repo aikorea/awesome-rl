@@ -25,7 +25,8 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 ### Lectures
 ### Books / Thesis
 ### Surveys
-test
+ 
+ - [1996-JAIR] Reinforcement Learning, A Survey 
 
 ## Applications
 
