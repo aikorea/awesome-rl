@@ -27,6 +27,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 ### Surveys
  
  - [1996-JAIR] Reinforcement Learning, A Survey 
+ - [2013-IJRR] Reinforcement Learning in Robotics, A Survey
 
 ## Applications
 
