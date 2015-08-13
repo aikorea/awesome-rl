@@ -26,6 +26,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 ### Books / Thesis
 ### Surveys
  
+ - Leslie Pack Kaelbling, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. [Paper](https://www.jair.org/media/301/live-301-1562-jair.pdf) 
  - [1996-JAIR] Reinforcement Learning, A Survey 
  - [2013-IJRR] Reinforcement Learning in Robotics, A Survey
 
