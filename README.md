@@ -23,8 +23,19 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 ## Theory
 
 ### Lectures
+
+ - [UCL] [COMPM050/COMPGI13 Reinforcement Learning by David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+ - [UC Berkeley] CS188 Artificial Intelligence by Pieter Abbeel
+   - [Lecture 8: Markov Decision Processes 1](https://www.youtube.com/watch?v=i0o-ui1N35U)
+   - [Lecture 9: Markov Decision Processes 2](https://www.youtube.com/watch?v=Csiiv6WGzKM)
+   - [Lecture 10: Reinforcement Learning 1](https://www.youtube.com/watch?v=ifma8G7LegE)
+   - [Lecture 11: Reinforcement Learning 2](https://www.youtube.com/watch?v=Si1_YTw960c)
+
 ### Books / Thesis
 ### Surveys
+ 
+ - Leslie Pack Kaelbling, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. [[Paper]](https://www.jair.org/media/301/live-301-1562-jair.pdf) 
+ - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
 
 ## Applications
 
