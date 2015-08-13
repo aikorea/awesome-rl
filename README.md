@@ -23,6 +23,9 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 ## Theory
 
 ### Lectures
+
+ - [UCL] [COMPM050/COMPGI13 Reinforcement Learning by David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+
 ### Books / Thesis
 ### Surveys
  
