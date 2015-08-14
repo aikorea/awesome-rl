@@ -32,7 +32,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Lecture 11: Reinforcement Learning 2](https://www.youtube.com/watch?v=Si1_YTw960c)
 
 ### Books / Thesis
- - Richard Sutton and Andrew Barto, Reinforcement Learning:An Introduction [[Book]](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+ - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction [[Book]](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
  - Csaba Szepesvari, Algorithms for Reinforcement Learning [[Book]](http://www.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
 
  
