@@ -17,6 +17,8 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Surveys](#surveys)
  - [Applications](#applications)
  - [Datasets](#datasets)
+ - [Tutorials](#tutorials)
+ - [Online Demos](#online--demos)
 
 ## Codes
  - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
@@ -62,6 +64,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - Game Playing
   - Human-level control through deep reinforcement learning, Nature (2015) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
   - [Flappy Bird Reinforcement Learning](https://github.com/SarvagyaVaish/FlappyBirdRL)
+
 ## Datasets 
 
 ## Tutorials
@@ -75,4 +78,4 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
   - [POMDP for Dummies](http://cs.brown.edu/research/ai/pomdp/tutorial/index.html)
 
 ## Online Demos
- - 
+ - [blank](blank)
