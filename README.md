@@ -19,6 +19,20 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [Datasets](#datasets)
 
 ## Codes
+ - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
+  - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
+  - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html) 
+  - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html) 
+ - [Reinforcement Learning Repository at Michigan State University] (http://www.cse.msu.edu/rlr/domains.html)
+ - Simulation code for Reinforcement Learning Control Problems
+  - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
+  - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
+ - [MATLAB Environment and GUI for Reinforcement Learning](http://www.cs.colostate.edu/~anderson/res/rl/matlabpaper/rl.html)
+ - [Reinforcement Learning Repository - University of Massachusetts, Amherst](http://www-anw.cs.umass.edu/rlr/)
+ - [Brown-UMBC Reinforcement Learning and Planning Library (Java)](http://burlap.cs.brown.edu/)
+ - [Reinforcement Learning in R (MDP, Value Iteration)](http://www.statsblogs.com/2014/01/07/reinforcement-learning-in-r-markov-decision-process-mdp-and-value-iteration/) 
+ - [Reinforcement Learning Environment in Python and MATLAB](https://jamh-web.appspot.com/download.htm)
+ - [RL-Glue](http://glue.rl-community.org/wiki/Main_Page) (standard interface for RL) and [RL-Glue Library](http://library.rl-community.org/wiki/Main_Page)
 
 ## Theory
 
@@ -30,18 +44,35 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Lecture 9: Markov Decision Processes 2](https://www.youtube.com/watch?v=Csiiv6WGzKM)
    - [Lecture 10: Reinforcement Learning 1](https://www.youtube.com/watch?v=ifma8G7LegE)
    - [Lecture 11: Reinforcement Learning 2](https://www.youtube.com/watch?v=Si1_YTw960c)
+ - [Udacity (Georgia Tech.)] [Machine Learning 3: Reinforcement Learning (CS7641)](https://www.udacity.com/course/machine-learning-reinforcement-learning--ud820)
+ 
 
 ### Books / Thesis
- - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction [[Book]](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+ - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction [[Book]](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html) [[Code]](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
  - Csaba Szepesvari, Algorithms for Reinforcement Learning [[Book]](http://www.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+ - David Poole and Alan Mackworth, Artificial Intelligence: Foundations of Computational Agents [[Book Chapter]](http://artint.info/html/ArtInt_262.html)
 
  
-### Surveys
- 
+### Surveys 
  - Leslie Pack Kaelbling, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. [[Paper]](https://www.jair.org/media/301/live-301-1562-jair.pdf) 
  - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
  - Littman, Michael L. "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
 
 ## Applications
-
+ - Game Playing
+  - Human-level control through deep reinforcement learning, Nature (2015) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
+  - [Flappy Bird Reinforcement Learning](https://github.com/SarvagyaVaish/FlappyBirdRL)
 ## Datasets 
+
+## Tutorials
+  - Mance Harmon and Stephanie Harmon, [Reinforcement Learning: A Tutorial] (http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf)
+  - UNSW - [Reinforcement Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/index.html)
+   - [Introduction](http://www.cse.unsw.edu.au/~cs9417ml/RL1/introduction.html) 
+   - [TD-Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/tdlearning.html)
+   - [Q-Learning and SARSA](http://www.cse.unsw.edu.au/~cs9417ml/RL1/algorithms.html)
+   - [Applet for "Cat and Mouse" Game](http://www.cse.unsw.edu.au/~cs9417ml/RL1/applet.html) 
+  - [ROS Reinforcement Learning Tutorial](http://wiki.ros.org/reinforcement_learning/Tutorials/Reinforcement%20Learning%20Tutorial)
+  - [POMDP for Dummies](http://cs.brown.edu/research/ai/pomdp/tutorial/index.html)
+
+## Online Demos
+ - 
