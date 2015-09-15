@@ -1,0 +1,224 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/github-dark.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Awesome-rl</title>
+  <meta name="description" content="Reinforcement learning resources curated">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Awesome-rl</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Reinforcement learning resources curated</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/aikorea/awesome-rl/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/aikorea/awesome-rl/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/aikorea/awesome-rl" class="code">View Awesome-rl on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a id="awesome-reinforcement-learning" class="anchor" href="#awesome-reinforcement-learning" aria-hidden="true"><span class="octicon octicon-link"></span></a>Awesome Reinforcement Learning</h1>
+
+<p>A curated list of resources dedicated to reinforcement learning.</p>
+
+<p>We have pages for other topics: <a href="http://jiwonkim.org/awesome-rnn">awesome-rnn</a>, <a href="http://jiwonkim.org/awesome-deep-vision/">awesome-deep-vision</a>, <a href="http://jiwonkim.org/awesome-random-forest/">awesome-random-forest</a></p>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Please feel free to <a href="https://github.com/aikorea/awesome-rl/pulls">pull requests</a></p>
+
+<h2>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table of Contents</h2>
+
+<ul>
+<li><a href="#codes">Codes</a></li>
+<li>
+<a href="#theory">Theory</a>
+
+<ul>
+<li><a href="#lectures">Lectures</a></li>
+<li><a href="#books--thesis">Books / Thesis</a></li>
+<li><a href="#surveys">Surveys</a></li>
+</ul>
+</li>
+<li><a href="#applications">Applications</a></li>
+<li><a href="#datasets">Datasets</a></li>
+<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#online-demos">Online Demos</a></li>
+</ul>
+
+<h2>
+<a id="codes" class="anchor" href="#codes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Codes</h2>
+
+<ul>
+<li>Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
+
+<ul>
+<li><a href="http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html">MATLAB Code</a></li>
+<li>
+<a href="https://webdocs.cs.ualberta.ca/%7Esutton/book/code/code.html">C/Lisp Code</a> </li>
+<li>
+<a href="http://webdocs.cs.ualberta.ca/%7Esutton/book/ebook/the-book.html">Book</a> </li>
+</ul>
+</li>
+<li>Simulation code for Reinforcement Learning Control Problems
+
+<ul>
+<li><a href="http://pages.cs.wisc.edu/%7Efinton/poledriver.html">Pole-Cart Problem</a></li>
+<li><a href="http://pages.cs.wisc.edu/%7Efinton/qcontroller.html">Q-learning Controller</a></li>
+</ul>
+</li>
+<li><a href="http://www.cs.colostate.edu/%7Eanderson/res/rl/matlabpaper/rl.html">MATLAB Environment and GUI for Reinforcement Learning</a></li>
+<li><a href="http://www-anw.cs.umass.edu/rlr/">Reinforcement Learning Repository - University of Massachusetts, Amherst</a></li>
+<li><a href="http://burlap.cs.brown.edu/">Brown-UMBC Reinforcement Learning and Planning Library (Java)</a></li>
+<li>
+<a href="http://www.statsblogs.com/2014/01/07/reinforcement-learning-in-r-markov-decision-process-mdp-and-value-iteration/">Reinforcement Learning in R (MDP, Value Iteration)</a> </li>
+<li><a href="https://jamh-web.appspot.com/download.htm">Reinforcement Learning Environment in Python and MATLAB</a></li>
+<li>
+<a href="http://glue.rl-community.org/wiki/Main_Page">RL-Glue</a> (standard interface for RL) and <a href="http://library.rl-community.org/wiki/Main_Page">RL-Glue Library</a>
+</li>
+</ul>
+
+<h2>
+<a id="theory" class="anchor" href="#theory" aria-hidden="true"><span class="octicon octicon-link"></span></a>Theory</h2>
+
+<h3>
+<a id="lectures" class="anchor" href="#lectures" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lectures</h3>
+
+<ul>
+<li>[UCL] <a href="http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html">COMPM050/COMPGI13 Reinforcement Learning by David Silver</a>
+</li>
+<li>[UC Berkeley] CS188 Artificial Intelligence by Pieter Abbeel
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=i0o-ui1N35U">Lecture 8: Markov Decision Processes 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=Csiiv6WGzKM">Lecture 9: Markov Decision Processes 2</a></li>
+<li><a href="https://www.youtube.com/watch?v=ifma8G7LegE">Lecture 10: Reinforcement Learning 1</a></li>
+<li><a href="https://www.youtube.com/watch?v=Si1_YTw960c">Lecture 11: Reinforcement Learning 2</a></li>
+</ul>
+</li>
+<li>[Udacity (Georgia Tech.)] <a href="https://www.udacity.com/course/machine-learning-reinforcement-learning--ud820">Machine Learning 3: Reinforcement Learning (CS7641)</a>
+</li>
+</ul>
+
+<h3>
+<a id="books--thesis" class="anchor" href="#books--thesis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Books / Thesis</h3>
+
+<ul>
+<li>Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction <a href="http://webdocs.cs.ualberta.ca/%7Esutton/book/ebook/the-book.html">[Book]</a> <a href="https://webdocs.cs.ualberta.ca/%7Esutton/book/code/code.html">[Code]</a>
+</li>
+<li>Csaba Szepesvari, Algorithms for Reinforcement Learning <a href="http://www.ualberta.ca/%7Eszepesva/papers/RLAlgsInMDPs.pdf">[Book]</a>
+</li>
+<li>David Poole and Alan Mackworth, Artificial Intelligence: Foundations of Computational Agents <a href="http://artint.info/html/ArtInt_262.html">[Book Chapter]</a>
+</li>
+</ul>
+
+<h3>
+<a id="surveys" class="anchor" href="#surveys" aria-hidden="true"><span class="octicon octicon-link"></span></a>Surveys</h3>
+
+<ul>
+<li>Leslie Pack Kaelbling, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. <a href="https://www.jair.org/media/301/live-301-1562-jair.pdf">[Paper]</a> </li>
+<li>Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. <a href="http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf">[Paper]</a>
+</li>
+<li>Littman, Michael L. "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. <a href="http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html">[Paper]</a>
+</li>
+</ul>
+
+<h2>
+<a id="applications" class="anchor" href="#applications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Applications</h2>
+
+<ul>
+<li>Game Playing
+
+<ul>
+<li>Human-level control through deep reinforcement learning, Nature (2015) <a href="http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D">[Paper]</a> <a href="https://sites.google.com/a/deepmind.com/dqn/">[Code]</a> <a href="https://www.youtube.com/watch?v=iqXKQf2BOSE">[Video]</a>
+</li>
+<li><a href="https://github.com/SarvagyaVaish/FlappyBirdRL">Flappy Bird Reinforcement Learning</a></li>
+</ul>
+</li>
+</ul>
+
+<h2>
+<a id="datasets" class="anchor" href="#datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Datasets</h2>
+
+<h2>
+<a id="tutorials" class="anchor" href="#tutorials" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorials</h2>
+
+<ul>
+<li>Mance Harmon and Stephanie Harmon, <a href="http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf">Reinforcement Learning: A Tutorial</a>
+</li>
+<li>UNSW - <a href="http://www.cse.unsw.edu.au/%7Ecs9417ml/RL1/index.html">Reinforcement Learning</a>
+
+<ul>
+<li>
+<a href="http://www.cse.unsw.edu.au/%7Ecs9417ml/RL1/introduction.html">Introduction</a> </li>
+<li><a href="http://www.cse.unsw.edu.au/%7Ecs9417ml/RL1/tdlearning.html">TD-Learning</a></li>
+<li><a href="http://www.cse.unsw.edu.au/%7Ecs9417ml/RL1/algorithms.html">Q-Learning and SARSA</a></li>
+<li>
+<a href="http://www.cse.unsw.edu.au/%7Ecs9417ml/RL1/applet.html">Applet for "Cat and Mouse" Game</a> </li>
+</ul>
+</li>
+<li><a href="http://wiki.ros.org/reinforcement_learning/Tutorials/Reinforcement%20Learning%20Tutorial">ROS Reinforcement Learning Tutorial</a></li>
+<li><a href="http://cs.brown.edu/research/ai/pomdp/tutorial/index.html">POMDP for Dummies</a></li>
+</ul>
+
+<h2>
+<a id="online-demos" class="anchor" href="#online-demos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Online Demos</h2>
+
+<ul>
+<li><a href="blank">blank</a></li>
+</ul>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/aikorea" class="avatar"><img src="https://avatars0.githubusercontent.com/u/13035374?v=3&amp;s=60" width="48" height="48"></a> <a href="https://github.com/aikorea">aikorea</a> maintains <a href="https://github.com/aikorea/awesome-rl">Awesome-rl</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/aikorea/awesome-rl/tarball/master" class="tar">tar</a><a href="https://github.com/aikorea/awesome-rl/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-67529920-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+</body>
+</html>
