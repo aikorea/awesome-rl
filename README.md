@@ -25,7 +25,6 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
   - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
   - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html) 
   - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html) 
- - [Reinforcement Learning Repository at Michigan State University] (http://www.cse.msu.edu/rlr/domains.html)
  - Simulation code for Reinforcement Learning Control Problems
   - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
   - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
