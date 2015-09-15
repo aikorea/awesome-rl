@@ -18,7 +18,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [Applications](#applications)
  - [Datasets](#datasets)
  - [Tutorials](#tutorials)
- - [Online Demos](#online--demos)
+ - [Online Demos](#online-demos)
 
 ## Codes
  - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
