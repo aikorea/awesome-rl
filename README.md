@@ -18,6 +18,9 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [Applications](#applications)
    - [Game Playing](#game-playing)
    - [Robotics](#robotics)
+   - [Control](#control)
+   - [Operations Research](#operations-research)
+   - [Human Computer Interaction](#human-computer-interaction)
  - [Datasets](#datasets)
  - [Tutorials](#tutorials)
  - [Online Demos](#online-demos)
@@ -63,17 +66,33 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ## Applications
 ### Game Playing
-  - TD-Gammon (Back-Gammon game play using TD(λ))[[paper]](http://www.bkgm.com/articles/tesauro/tdl.html)
-  - Human-level control through deep reinforcement learning, Nature (2015) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
-  - [Flappy Bird Reinforcement Learning](https://github.com/SarvagyaVaish/FlappyBirdRL) [[Video]](https://www.youtube.com/watch?v=xM62SpKAZHU)
-  - MarI/O (learning to play Mario with evolutionary reinforcement learning using artificial neural networks) [[Paper]](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)[[Video]](https://www.youtube.com/watch?v=qv6UVOQ0F44)
+  - Traditional Games
+   - Backgammon - "TD-Gammon" game play using TD(λ) (ACM 1995) [[Paper]](http://www.bkgm.com/articles/tesauro/tdl.html)
+   - Chess - "KnightCap" program using TD(λ)  [[Paper-arXiv]](http://arxiv.org/pdf/cs/9901002v1.pdf)
+
+  - Computer Games 
+   - Human-level Control through Deep Reinforcement Learning (Nature 2015) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
+   - [Flappy Bird Reinforcement Learning](https://github.com/SarvagyaVaish/FlappyBirdRL) [[Video]](https://www.youtube.com/watch?v=xM62SpKAZHU)
+   - MarI/O (learning to play Mario with evolutionary reinforcement learning using artificial neural networks) [[Paper]](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)[[Video]](https://www.youtube.com/watch?v=qv6UVOQ0F44)
 
 ### Robotics
-   - Robot Motor SKill Coordination with EM-based Reinforcement Learning (IROS 2010) [[Paper]](http://kormushev.com/papers/Kormushev-IROS2010.pdf) [[Video]](https://www.youtube.com/watch?v=W_gxLKSsSIE)
-   - Autonomous Skill Acquisition on a Mobile Manipulator (AAAI 2011) [[Paper]](https://www.youtube.com/watch?v=yUICAkSQTZY) [[Video]](https://www.youtube.com/watch?v=yUICAkSQTZY)
-   - Efficient Reinforcement Learning for Robots using Informative Simulated Priors (ICRA 2015) [[Paper]](http://markjcutler.com/papers/Cutler15_ICRA.pdf) [[Video]](https://www.youtube.com/watch?v=kKClFx6l1HY)
-   - An Application of Reinforcement Learning to Aerobatic Helicopter Flight (NIPS 2006) [[Paper]](http://heli.stanford.edu/papers/nips06-aerobatichelicopter.pdf) [[Video]](https://www.youtube.com/watch?v=VCdxqn0fcnE)
-   - Generalized Model Learning for Reinforcement Learning on a Humanoid Robot (ICRA 2010) [[Paper]](https://ccc.inaoep.mx/~mdprl/documentos/Hester_2010.pdf) [[Video]](https://www.youtube.com/watch?v=mRpX9DFCdwI&list=PL5nBAYUyJTrM48dViibyi68urttMlUv7e&index=12)
+  - Robot Motor SKill Coordination with EM-based Reinforcement Learning (IROS 2010) [[Paper]](http://kormushev.com/papers/Kormushev-IROS2010.pdf) [[Video]](https://www.youtube.com/watch?v=W_gxLKSsSIE)
+  - Autonomous Skill Acquisition on a Mobile Manipulator (AAAI 2011) [[Paper]](https://www.youtube.com/watch?v=yUICAkSQTZY) [[Video]](https://www.youtube.com/watch?v=yUICAkSQTZY)
+  - Efficient Reinforcement Learning for Robots using Informative Simulated Priors (ICRA 2015) [[Paper]](http://markjcutler.com/papers/Cutler15_ICRA.pdf) [[Video]](https://www.youtube.com/watch?v=kKClFx6l1HY)
+  - Generalized Model Learning for Reinforcement Learning on a Humanoid Robot (ICRA 2010) [[Paper]](https://ccc.inaoep.mx/~mdprl/documentos/Hester_2010.pdf) [[Video]](https://www.youtube.com/watch?v=mRpX9DFCdwI&list=PL5nBAYUyJTrM48dViibyi68urttMlUv7e&index=12)
+
+### Control
+  - An Application of Reinforcement Learning to Aerobatic Helicopter Flight (NIPS 2006) [[Paper]](http://heli.stanford.edu/papers/nips06-aerobatichelicopter.pdf) [[Video]](https://www.youtube.com/watch?v=VCdxqn0fcnE)
+  - Autonomous helicopter control using Reinforcement Learning Policy Search Methods (ICRA 2011) [[Paper]](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1082&context=robotics)
+
+### Operations Research
+  - Scaling Average-reward Reinforcement Learning for Product Delivery (AAAI 2004) [[Paper]](http://web.engr.oregonstate.edu/~proper/AAAI04SProper.pdf)
+  - Cross Channel Optimized Marketing by Reinforcement Learning (KDD 2004) [[Paper]](http://www.research.ibm.com/people/n/nabe/kdd04AVAS.pdf)
+
+### Human Computer Interaction
+  - Optimizing Dialogue Management with Reinforcement Learning: Experiments with the NJFun System (JAIR 2002) [[Paper]](http://web.eecs.umich.edu/~baveja/Papers/RLDSjair.pdf)
+ 
+
 
 ## Datasets 
 
