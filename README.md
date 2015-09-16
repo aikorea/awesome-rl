@@ -16,6 +16,8 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Books / Thesis](#books--thesis)
    - [Surveys](#surveys)
  - [Applications](#applications)
+   - [Game Playing](#game-playing)
+   - [Robotics](#robotics)
  - [Datasets](#datasets)
  - [Tutorials](#tutorials)
  - [Online Demos](#online-demos)
@@ -60,14 +62,23 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - Littman, Michael L. "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
 
 ## Applications
- - Game Playing
+### Game Playing
+  - TD-Gammon (Back-Gammon game play using TD(λ))[[paper]](http://www.bkgm.com/articles/tesauro/tdl.html)
   - Human-level control through deep reinforcement learning, Nature (2015) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
-  - [Flappy Bird Reinforcement Learning](https://github.com/SarvagyaVaish/FlappyBirdRL)
+  - [Flappy Bird Reinforcement Learning](https://github.com/SarvagyaVaish/FlappyBirdRL) [[Video]](https://www.youtube.com/watch?v=xM62SpKAZHU)
+  - MarI/O (learning to play Mario with evolutionary reinforcement learning using artificial neural networks) [[Paper]](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)[[Video]](https://www.youtube.com/watch?v=qv6UVOQ0F44)
+
+### Robotics
+   - Robot Motor SKill Coordination with EM-based Reinforcement Learning (IROS 2010) [[Paper]](http://kormushev.com/papers/Kormushev-IROS2010.pdf) [[Video]](https://www.youtube.com/watch?v=W_gxLKSsSIE)
+   - Autonomous Skill Acquisition on a Mobile Manipulator (AAAI 2011) [[Paper]](https://www.youtube.com/watch?v=yUICAkSQTZY) [[Video]](https://www.youtube.com/watch?v=yUICAkSQTZY)
+   - Efficient Reinforcement Learning for Robots using Informative Simulated Priors (ICRA 2015) [[Paper]](http://markjcutler.com/papers/Cutler15_ICRA.pdf) [[Video]](https://www.youtube.com/watch?v=kKClFx6l1HY)
+   - An Application of Reinforcement Learning to Aerobatic Helicopter Flight (NIPS 2006) [[Paper]](http://heli.stanford.edu/papers/nips06-aerobatichelicopter.pdf) [[Video]](https://www.youtube.com/watch?v=VCdxqn0fcnE)
+   - Generalized Model Learning for Reinforcement Learning on a Humanoid Robot (ICRA 2010) [[Paper]](https://ccc.inaoep.mx/~mdprl/documentos/Hester_2010.pdf) [[Video]](https://www.youtube.com/watch?v=mRpX9DFCdwI&list=PL5nBAYUyJTrM48dViibyi68urttMlUv7e&index=12)
 
 ## Datasets 
 
 ## Tutorials
-  - Mance Harmon and Stephanie Harmon, [Reinforcement Learning: A Tutorial] (http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf)
+  - Mance Harmon and Stephanie Harmon, [Reinforcement Learning: A Tutorial](http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf)
   - UNSW - [Reinforcement Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/index.html)
    - [Introduction](http://www.cse.unsw.edu.au/~cs9417ml/RL1/introduction.html) 
    - [TD-Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/tdlearning.html)
