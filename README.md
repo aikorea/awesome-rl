@@ -13,8 +13,8 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [Codes](#codes)
  - [Theory](#theory)
    - [Lectures](#lectures)
-   - [Books / Thesis](#books--thesis)
-   - [Surveys](#surveys)
+   - [Books](#books)
+   - [Surveys / Thesis](#surveys--thesis)
  - [Applications](#applications)
    - [Game Playing](#game-playing)
    - [Robotics](#robotics)
@@ -53,7 +53,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [Udacity (Georgia Tech.)] [Machine Learning 3: Reinforcement Learning (CS7641)](https://www.udacity.com/course/machine-learning-reinforcement-learning--ud820)
  
 
-### Books / Thesis
+### Books 
  - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction [[Book]](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html) [[Code]](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
  - Csaba Szepesvari, Algorithms for Reinforcement Learning [[Book]](http://www.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
  - David Poole and Alan Mackworth, Artificial Intelligence: Foundations of Computational Agents [[Book Chapter]](http://artint.info/html/ArtInt_262.html)
@@ -63,6 +63,16 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - Leslie Pack Kaelbling, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. [[Paper]](https://www.jair.org/media/301/live-301-1562-jair.pdf) 
  - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
  - Littman, Michael L. "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
+
+### Papers / Thesis
+ - Marvin Minsky, Steps toward Artificial Intelligence, Proceedings of the IRE, 1961. [[Paper]](http://staffweb.worc.ac.uk/DrC/Courses%202010-11/Comp%203104/Tutor%20Inputs/Session%209%20Prep/Reading%20material/Minsky60steps.pdf)
+  - discusses issues in RL such as the "credit assignment problem"
+ - Ian H. Witten, An Adaptive Optimal Controller for Discrete-Time Markov Environments, Information and Control, 1977. [[Paper]](http://www.cs.waikato.ac.nz/~ihw/papers/77-IHW-AdaptiveController.pdf)
+  - earliest publication on temporal-difference (TD) learning rule.  
+ - Chris Watkins, Learning from Delayed Rewards, Cambridge, 1989. [[Thesis]](http://www.cs.rhul.ac.uk/home/chrisw/thesis.html)
+  - develops Q-learning, brings together temporal-difference and optimal control fields
+ - C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. [[Paper]](http://image.diku.dk/igel/paper/RLiaN.pdf)
+  - provides brief overview and introduction to reinforcement learning 
 
 ## Applications
 ### Game Playing
