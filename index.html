@@ -58,11 +58,22 @@
 
 <ul>
 <li><a href="#lectures">Lectures</a></li>
-<li><a href="#books--thesis">Books / Thesis</a></li>
+<li><a href="#books">Books</a></li>
 <li><a href="#surveys">Surveys</a></li>
+<li><a href="#papers--thesis">Papers / Thesis</a></li>
 </ul>
 </li>
-<li><a href="#applications">Applications</a></li>
+<li>
+<a href="#applications">Applications</a>
+
+<ul>
+<li><a href="#game-playing">Game Playing</a></li>
+<li><a href="#robotics">Robotics</a></li>
+<li><a href="#control">Control</a></li>
+<li><a href="#operations-research">Operations Research</a></li>
+<li><a href="#human-computer-interaction">Human Computer Interaction</a></li>
+</ul>
+</li>
 <li><a href="#datasets">Datasets</a></li>
 <li><a href="#tutorials">Tutorials</a></li>
 <li><a href="#online-demos">Online Demos</a></li>
@@ -123,7 +134,7 @@
 </ul>
 
 <h3>
-<a id="books--thesis" class="anchor" href="#books--thesis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Books / Thesis</h3>
+<a id="books" class="anchor" href="#books" aria-hidden="true"><span class="octicon octicon-link"></span></a>Books</h3>
 
 <ul>
 <li>Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction <a href="http://webdocs.cs.ualberta.ca/%7Esutton/book/ebook/the-book.html">[Book]</a> <a href="https://webdocs.cs.ualberta.ca/%7Esutton/book/code/code.html">[Code]</a>
@@ -132,30 +143,129 @@
 </li>
 <li>David Poole and Alan Mackworth, Artificial Intelligence: Foundations of Computational Agents <a href="http://artint.info/html/ArtInt_262.html">[Book Chapter]</a>
 </li>
+<li>Dimitri P. Bertsekas and John N. Tsitsiklis, Neuro-Dynamic Programming <a href="http://www.amazon.com/Neuro-Dynamic-Programming-Optimization-Neural-Computation/dp/1886529108/ref=sr_1_3?s=books&amp;ie=UTF8&amp;qid=1442461075&amp;sr=1-3&amp;refinements=p_27%3AJohn+N.+Tsitsiklis+Dimitri+P.+Bertsekas">[Book (Amazon)]</a> <a href="http://www.mit.edu/%7Edimitrib/NDP_Encycl.pdf">[Summary]</a>
+</li>
+<li>Mykel J. Kochenderfer, Decision Making Under Uncertainty: Theory and Application <a href="http://www.amazon.com/Decision-Making-Under-Uncertainty-Application/dp/0262029251/ref=sr_1_1?ie=UTF8&amp;qid=1441126550&amp;sr=8-1&amp;keywords=kochenderfer&amp;pebp=1441126551594&amp;perid=1Y6RG2EGRD26659CJHH9">[Book (Amazon)]</a>
+</li>
 </ul>
 
 <h3>
 <a id="surveys" class="anchor" href="#surveys" aria-hidden="true"><span class="octicon octicon-link"></span></a>Surveys</h3>
 
 <ul>
-<li>Leslie Pack Kaelbling, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. <a href="https://www.jair.org/media/301/live-301-1562-jair.pdf">[Paper]</a> </li>
+<li>Leslie Pack Kaelbling, Michael L. Littman, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. <a href="https://www.jair.org/media/301/live-301-1562-jair.pdf">[Paper]</a> </li>
+<li>S. S. Keerthi and B. Ravindran, A Tutorial Survey of Reinforcement Learning, Sadhana, 1994. <a href="http://www.cse.iitm.ac.in/%7Eravi/papers/keerthi.rl-survey.pdf">[Paper]</a>
+</li>
 <li>Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. <a href="http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf">[Paper]</a>
 </li>
 <li>Littman, Michael L. "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. <a href="http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html">[Paper]</a>
 </li>
 </ul>
 
+<h3>
+<a id="papers--thesis" class="anchor" href="#papers--thesis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Papers / Thesis</h3>
+
+<ul>
+<li>Marvin Minsky, Steps toward Artificial Intelligence, Proceedings of the IRE, 1961. <a href="http://staffweb.worc.ac.uk/DrC/Courses%202010-11/Comp%203104/Tutor%20Inputs/Session%209%20Prep/Reading%20material/Minsky60steps.pdf">[Paper]</a>
+
+<ul>
+<li>discusses issues in RL such as the "credit assignment problem"</li>
+</ul>
+</li>
+<li>Ian H. Witten, An Adaptive Optimal Controller for Discrete-Time Markov Environments, Information and Control, 1977. <a href="http://www.cs.waikato.ac.nz/%7Eihw/papers/77-IHW-AdaptiveController.pdf">[Paper]</a>
+
+<ul>
+<li>earliest publication on temporal-difference (TD) learning rule.<br>
+</li>
+</ul>
+</li>
+<li>Chris Watkins, Learning from Delayed Rewards, Cambridge, 1989. <a href="http://www.cs.rhul.ac.uk/home/chrisw/thesis.html">[Thesis]</a>
+
+<ul>
+<li>develops Q-learning, brings together temporal-difference and optimal control fields</li>
+</ul>
+</li>
+<li>C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. <a href="http://image.diku.dk/igel/paper/RLiaN.pdf">[Paper]</a>
+
+<ul>
+<li>provides brief overview and introduction to reinforcement learning </li>
+</ul>
+</li>
+</ul>
+
 <h2>
 <a id="applications" class="anchor" href="#applications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Applications</h2>
 
-<ul>
-<li>Game Playing
+<h3>
+<a id="game-playing" class="anchor" href="#game-playing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Game Playing</h3>
 
 <ul>
-<li>Human-level control through deep reinforcement learning, Nature (2015) <a href="http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D">[Paper]</a> <a href="https://sites.google.com/a/deepmind.com/dqn/">[Code]</a> <a href="https://www.youtube.com/watch?v=iqXKQf2BOSE">[Video]</a>
+<li>
+<p>Traditional Games</p>
+
+<ul>
+<li>Backgammon - "TD-Gammon" game play using TD(λ) (ACM 1995) <a href="http://www.bkgm.com/articles/tesauro/tdl.html">[Paper]</a>
 </li>
-<li><a href="https://github.com/SarvagyaVaish/FlappyBirdRL">Flappy Bird Reinforcement Learning</a></li>
+<li>Chess - "KnightCap" program using TD(λ)  <a href="http://arxiv.org/pdf/cs/9901002v1.pdf">[Paper-arXiv]</a>
+</li>
+<li>Chess - Giraffe: Using deep reinforcement learning to play chess <a href="http://arxiv.org/pdf/1509.01549v2.pdf">[Paper-arXiv]</a>
+</li>
 </ul>
+</li>
+<li>
+<p>Computer Games </p>
+
+<ul>
+<li>Human-level Control through Deep Reinforcement Learning (Nature 2015) <a href="http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D">[Paper]</a> <a href="https://sites.google.com/a/deepmind.com/dqn/">[Code]</a> <a href="https://www.youtube.com/watch?v=iqXKQf2BOSE">[Video]</a>
+</li>
+<li>
+<a href="https://github.com/SarvagyaVaish/FlappyBirdRL">Flappy Bird Reinforcement Learning</a> <a href="https://www.youtube.com/watch?v=xM62SpKAZHU">[Video]</a>
+</li>
+<li>MarI/O (learning to play Mario with evolutionary reinforcement learning using artificial neural networks) <a href="http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf">[Paper]</a><a href="https://www.youtube.com/watch?v=qv6UVOQ0F44">[Video]</a>
+</li>
+</ul>
+</li>
+</ul>
+
+<h3>
+<a id="robotics" class="anchor" href="#robotics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Robotics</h3>
+
+<ul>
+<li>Robot Motor SKill Coordination with EM-based Reinforcement Learning (IROS 2010) <a href="http://kormushev.com/papers/Kormushev-IROS2010.pdf">[Paper]</a> <a href="https://www.youtube.com/watch?v=W_gxLKSsSIE">[Video]</a>
+</li>
+<li>Autonomous Skill Acquisition on a Mobile Manipulator (AAAI 2011) <a href="https://www.youtube.com/watch?v=yUICAkSQTZY">[Paper]</a> <a href="https://www.youtube.com/watch?v=yUICAkSQTZY">[Video]</a>
+</li>
+<li>Efficient Reinforcement Learning for Robots using Informative Simulated Priors (ICRA 2015) <a href="http://markjcutler.com/papers/Cutler15_ICRA.pdf">[Paper]</a> <a href="https://www.youtube.com/watch?v=kKClFx6l1HY">[Video]</a>
+</li>
+<li>Generalized Model Learning for Reinforcement Learning on a Humanoid Robot (ICRA 2010) <a href="https://ccc.inaoep.mx/%7Emdprl/documentos/Hester_2010.pdf">[Paper]</a> <a href="https://www.youtube.com/watch?v=mRpX9DFCdwI&amp;list=PL5nBAYUyJTrM48dViibyi68urttMlUv7e&amp;index=12">[Video]</a>
+</li>
+</ul>
+
+<h3>
+<a id="control" class="anchor" href="#control" aria-hidden="true"><span class="octicon octicon-link"></span></a>Control</h3>
+
+<ul>
+<li>An Application of Reinforcement Learning to Aerobatic Helicopter Flight (NIPS 2006) <a href="http://heli.stanford.edu/papers/nips06-aerobatichelicopter.pdf">[Paper]</a> <a href="https://www.youtube.com/watch?v=VCdxqn0fcnE">[Video]</a>
+</li>
+<li>Autonomous helicopter control using Reinforcement Learning Policy Search Methods (ICRA 2011) <a href="http://repository.cmu.edu/cgi/viewcontent.cgi?article=1082&amp;context=robotics">[Paper]</a>
+</li>
+</ul>
+
+<h3>
+<a id="operations-research" class="anchor" href="#operations-research" aria-hidden="true"><span class="octicon octicon-link"></span></a>Operations Research</h3>
+
+<ul>
+<li>Scaling Average-reward Reinforcement Learning for Product Delivery (AAAI 2004) <a href="http://web.engr.oregonstate.edu/%7Eproper/AAAI04SProper.pdf">[Paper]</a>
+</li>
+<li>Cross Channel Optimized Marketing by Reinforcement Learning (KDD 2004) <a href="http://www.research.ibm.com/people/n/nabe/kdd04AVAS.pdf">[Paper]</a>
+</li>
+</ul>
+
+<h3>
+<a id="human-computer-interaction" class="anchor" href="#human-computer-interaction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Human Computer Interaction</h3>
+
+<ul>
+<li>Optimizing Dialogue Management with Reinforcement Learning: Experiments with the NJFun System (JAIR 2002) <a href="http://web.eecs.umich.edu/%7Ebaveja/Papers/RLDSjair.pdf">[Paper]</a>
 </li>
 </ul>
 
