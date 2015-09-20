@@ -84,6 +84,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
   - Traditional Games
    - Backgammon - "TD-Gammon" game play using TD(λ) (ACM 1995) [[Paper]](http://www.bkgm.com/articles/tesauro/tdl.html)
    - Chess - "KnightCap" program using TD(λ)  [[Paper-arXiv]](http://arxiv.org/pdf/cs/9901002v1.pdf)
+   - Chess - Giraffe: Using deep reinforcement learning to play chess [[Paper-arXiv]](http://arxiv.org/pdf/1509.01549v2.pdf)
 
   - Computer Games 
    - Human-level Control through Deep Reinforcement Learning (Nature 2015) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
