@@ -22,8 +22,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Control](#control)
    - [Operations Research](#operations-research)
    - [Human Computer Interaction](#human-computer-interaction)
- - [Datasets](#datasets)
- - [Tutorials](#tutorials)
+ - [Tutorials / Websites](#tutorials--websites)
  - [Online Demos](#online-demos)
 
 ## Codes
@@ -40,18 +39,25 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [Reinforcement Learning in R (MDP, Value Iteration)](http://www.statsblogs.com/2014/01/07/reinforcement-learning-in-r-markov-decision-process-mdp-and-value-iteration/) 
  - [Reinforcement Learning Environment in Python and MATLAB](https://jamh-web.appspot.com/download.htm)
  - [RL-Glue](http://glue.rl-community.org/wiki/Main_Page) (standard interface for RL) and [RL-Glue Library](http://library.rl-community.org/wiki/Main_Page)
+ - [PyBrain Library](http://www.pybrain.org/) - Python-Based Reinforcement learning, Artificial intelligence, and Neural network
+ - [Maja](http://mmlf.sourceforge.net/) - Machine learning framework for problems in Reinforcement Learning in python
+ - [TeachingBox](http://servicerobotik.hs-weingarten.de/en/teachingbox.php) - Java based Reinforcement Learning framework
+ - [Implementation of RL algorithms in Python/C++](http://webdocs.cs.ualberta.ca/~vanhasse/code.html)
+ - [Policy Gradient Reinforcement Learning Toolbox for MATLAB](http://www.ias.informatik.tu-darmstadt.de/Research/PolicyGradientToolbox)
+ - [PIQLE](http://sourceforge.net/projects/piqle/) - Platform Implementing Q-LEarning and other RL algorithms
 
 ## Theory
 
 ### Lectures
 
- - [UCL] [COMPM050/COMPGI13 Reinforcement Learning by David Silver](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html)
+ - [UCL] [COMPM050/COMPGI13 Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) by David Silver
  - [UC Berkeley] CS188 Artificial Intelligence by Pieter Abbeel
    - [Lecture 8: Markov Decision Processes 1](https://www.youtube.com/watch?v=i0o-ui1N35U)
    - [Lecture 9: Markov Decision Processes 2](https://www.youtube.com/watch?v=Csiiv6WGzKM)
    - [Lecture 10: Reinforcement Learning 1](https://www.youtube.com/watch?v=ifma8G7LegE)
    - [Lecture 11: Reinforcement Learning 2](https://www.youtube.com/watch?v=Si1_YTw960c)
  - [Udacity (Georgia Tech.)] [Machine Learning 3: Reinforcement Learning (CS7641)](https://www.udacity.com/course/machine-learning-reinforcement-learning--ud820)
+ - [Stanford] [CS229 Machine Learning - Lecture 16: Reinforcement Learning](https://www.youtube.com/watch?v=RtxI449ZjSc&feature=relmfu) by Andrew Ng
  
 
 ### Books 
@@ -66,16 +72,32 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - S. S. Keerthi and B. Ravindran, A Tutorial Survey of Reinforcement Learning, Sadhana, 1994. [[Paper]](http://www.cse.iitm.ac.in/~ravi/papers/keerthi.rl-survey.pdf)
  - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
  - Littman, Michael L. "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
+ - Marc P. Deisenroth, Gerhard Neumann, Jan Peter, A Survey on Policy Search for Robotics, Foundations and Trends in Robotics, 2014. [[Book]](https://spiral.imperial.ac.uk:8443/bitstream/10044/1/12051/7/fnt_corrected_2014-8-22.pdf)
 
 ### Papers / Thesis
- - Marvin Minsky, Steps toward Artificial Intelligence, Proceedings of the IRE, 1961. [[Paper]](http://staffweb.worc.ac.uk/DrC/Courses%202010-11/Comp%203104/Tutor%20Inputs/Session%209%20Prep/Reading%20material/Minsky60steps.pdf)
-  - discusses issues in RL such as the "credit assignment problem"
- - Ian H. Witten, An Adaptive Optimal Controller for Discrete-Time Markov Environments, Information and Control, 1977. [[Paper]](http://www.cs.waikato.ac.nz/~ihw/papers/77-IHW-AdaptiveController.pdf)
-  - earliest publication on temporal-difference (TD) learning rule.  
- - Chris Watkins, Learning from Delayed Rewards, Cambridge, 1989. [[Thesis]](http://www.cs.rhul.ac.uk/home/chrisw/thesis.html)
-  - develops Q-learning, brings together temporal-difference and optimal control fields
- - C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. [[Paper]](http://image.diku.dk/igel/paper/RLiaN.pdf)
-  - provides brief overview and introduction to reinforcement learning 
+ - Seminal papers
+  - Marvin Minsky, Steps toward Artificial Intelligence, Proceedings of the IRE, 1961. [[Paper]](http://staffweb.worc.ac.uk/DrC/Courses%202010-11/Comp%203104/Tutor%20Inputs/Session%209%20Prep/Reading%20material/Minsky60steps.pdf)
+    - discusses issues in RL such as the "credit assignment problem"
+  - Ian H. Witten, An Adaptive Optimal Controller for Discrete-Time Markov Environments, Information and Control, 1977. [[Paper]](http://www.cs.waikato.ac.nz/~ihw/papers/77-IHW-AdaptiveController.pdf)
+    - earliest publication on temporal-difference (TD) learning rule.  
+  - Chris Watkins, Learning from Delayed Rewards, Cambridge, 1989. [[Thesis]](http://www.cs.rhul.ac.uk/home/chrisw/thesis.html)
+    - develops Q-learning, brings together temporal-difference and optimal control fields
+ 
+ - Solution Methods
+  - Dynamic Programming (DP):
+    - Christopher J. C. H. Watkins, Learning from Delayed Rewards, Ph.D. Thesis, Cambridge University, 1989. [[Thesis]](https://www.cs.rhul.ac.uk/home/chrisw/new_thesis.pdf)
+  - Monte Carlo: 
+    - Andrew Barto, Michael Duff, Monte Carlo Inversion and Reinforcement Learning, NIPS, 1994. [[Paper]](http://papers.nips.cc/paper/865-monte-carlo-matrix-inversion-and-reinforcement-learning.pdf)
+    - Satinder P. Singh, Richard S. Sutton, Reinforcement Learning with Replacing Eligibility Traces, Machine Learning, 1996. [[Paper]](http://www-all.cs.umass.edu/pubs/1995_96/singh_s_ML96.pdf)
+  - Temporal-Difference: 
+    * Richard S. Sutton, Learning to predict by the methods of temporal differences. Machine Learning 3: 9-44, 1988. [[Paper]](http://webdocs.cs.ualberta.ca/~sutton/papers/sutton-88-with-erratum.pdf)
+
+ - Robotics
+  - Jan Peters, Sethu Vijayakumar, Stefan Schaal, Reinforcement Learning for Humanoid Robotics, ICHR, 2003. [[Paper]](http://www-clmc.usc.edu/publications/p/peters-ICHR2003.pdf)
+ 
+ - Overview
+  - C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. [[Paper]](http://image.diku.dk/igel/paper/RLiaN.pdf)
+    - provides brief overview and introduction to reinforcement learning 
  
 
 
@@ -110,10 +132,9 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  
 
 
-## Datasets 
-
-## Tutorials
+## Tutorials / Websites
   - Mance Harmon and Stephanie Harmon, [Reinforcement Learning: A Tutorial](http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf)
+  - [Short introduction to some Reinforcement Learning algorithms](http://webdocs.cs.ualberta.ca/~vanhasse/rl_algs/rl_algs.html)
   - UNSW - [Reinforcement Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/index.html)
    - [Introduction](http://www.cse.unsw.edu.au/~cs9417ml/RL1/introduction.html) 
    - [TD-Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/tdlearning.html)
@@ -121,6 +142,10 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Applet for "Cat and Mouse" Game](http://www.cse.unsw.edu.au/~cs9417ml/RL1/applet.html) 
   - [ROS Reinforcement Learning Tutorial](http://wiki.ros.org/reinforcement_learning/Tutorials/Reinforcement%20Learning%20Tutorial)
   - [POMDP for Dummies](http://cs.brown.edu/research/ai/pomdp/tutorial/index.html)
+  - Scholarpedia articles on:
+   - [Reinforcement Learning](http://www.scholarpedia.org/article/Reinforcement_learning) 
+   - [Temporal Difference Learning](http://www.scholarpedia.org/article/Temporal_difference_learning)
+  - Repository with useful [MATLAB Software, presentations, and demo videos](http://busoniu.net/repository.php) 
 
 ## Online Demos
- - [blank](blank)
+ - [Real-world demonstrations of Reinforcement Learning](http://www.dcsc.tudelft.nl/~robotics/media.html)
