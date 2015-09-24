@@ -100,14 +100,6 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
     - Steven J. Bradtke, Andrew G. Barto, Linear Least-Squares Algorithms for Temporal Difference Learning, Machine Learning, 1996. [[Paper]](http://www-anw.cs.umass.edu/pubs/1995_96/bradtke_b_ML96.pdf)
     - Michail G. Lagoudakis, Ronald Parr, Model-Free Least Squares Policy Iteration, NIPS, 2001. [[Paper]](http://www.cs.duke.edu/research/AI/LSPI/nips01.pdf) [[Code]](http://www.cs.duke.edu/research/AI/LSPI/)
 
- - Robotics
-  - Jan Peters, Sethu Vijayakumar, Stefan Schaal, Reinforcement Learning for Humanoid Robotics, ICHR, 2003. [[Paper]](http://www-clmc.usc.edu/publications/p/peters-ICHR2003.pdf)
- 
- - Overview
-  - C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. [[Paper]](http://image.diku.dk/igel/paper/RLiaN.pdf)
-    - provides brief overview and introduction to reinforcement learning 
- 
-
 
 ## Applications
 ### Game Playing
@@ -122,6 +114,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - MarI/O (learning to play Mario with evolutionary reinforcement learning using artificial neural networks) [[Paper]](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf)[[Video]](https://www.youtube.com/watch?v=qv6UVOQ0F44)
 
 ### Robotics
+  - Reinforcement Learning for Humanoid Robotics (ICHR 2003) [[Paper]](http://www-clmc.usc.edu/publications/p/peters-ICHR2003.pdf)
   - Policy Gradient Reinforcement Learning for Fast Quadrupedal Locomotion (ICRA 2004) [[Paper]](http://www.cs.utexas.edu/~pstone/Papers/bib2html-links/icra04.pdf)
   - Robot Motor SKill Coordination with EM-based Reinforcement Learning (IROS 2010) [[Paper]](http://kormushev.com/papers/Kormushev-IROS2010.pdf) [[Video]](https://www.youtube.com/watch?v=W_gxLKSsSIE)
   - Generalized Model Learning for Reinforcement Learning on a Humanoid Robot (ICRA 2010) [[Paper]](https://ccc.inaoep.mx/~mdprl/documentos/Hester_2010.pdf) [[Video]](https://www.youtube.com/watch?v=mRpX9DFCdwI&list=PL5nBAYUyJTrM48dViibyi68urttMlUv7e&index=12) 
@@ -147,6 +140,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 ## Tutorials / Websites
   - Mance Harmon and Stephanie Harmon, [Reinforcement Learning: A Tutorial](http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf)
   - [Short introduction to some Reinforcement Learning algorithms](http://webdocs.cs.ualberta.ca/~vanhasse/rl_algs/rl_algs.html)
+  - C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. [[Paper]](http://image.diku.dk/igel/paper/RLiaN.pdf)
   - UNSW - [Reinforcement Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/index.html)
    - [Introduction](http://www.cse.unsw.edu.au/~cs9417ml/RL1/introduction.html) 
    - [TD-Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/tdlearning.html)
