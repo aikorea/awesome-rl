@@ -74,8 +74,7 @@
 <li><a href="#human-computer-interaction">Human Computer Interaction</a></li>
 </ul>
 </li>
-<li><a href="#datasets">Datasets</a></li>
-<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#tutorials--websites">Tutorials / Websites</a></li>
 <li><a href="#online-demos">Online Demos</a></li>
 </ul>
 
@@ -109,6 +108,16 @@
 <li>
 <a href="http://glue.rl-community.org/wiki/Main_Page">RL-Glue</a> (standard interface for RL) and <a href="http://library.rl-community.org/wiki/Main_Page">RL-Glue Library</a>
 </li>
+<li>
+<a href="http://www.pybrain.org/">PyBrain Library</a> - Python-Based Reinforcement learning, Artificial intelligence, and Neural network</li>
+<li>
+<a href="http://mmlf.sourceforge.net/">Maja</a> - Machine learning framework for problems in Reinforcement Learning in python</li>
+<li>
+<a href="http://servicerobotik.hs-weingarten.de/en/teachingbox.php">TeachingBox</a> - Java based Reinforcement Learning framework</li>
+<li><a href="http://webdocs.cs.ualberta.ca/%7Evanhasse/code.html">Implementation of RL algorithms in Python/C++</a></li>
+<li><a href="http://www.ias.informatik.tu-darmstadt.de/Research/PolicyGradientToolbox">Policy Gradient Reinforcement Learning Toolbox for MATLAB</a></li>
+<li>
+<a href="http://sourceforge.net/projects/piqle/">PIQLE</a> - Platform Implementing Q-LEarning and other RL algorithms</li>
 </ul>
 
 <h2>
@@ -118,8 +127,7 @@
 <a id="lectures" class="anchor" href="#lectures" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lectures</h3>
 
 <ul>
-<li>[UCL] <a href="http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html">COMPM050/COMPGI13 Reinforcement Learning by David Silver</a>
-</li>
+<li>[UCL] <a href="http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html">COMPM050/COMPGI13 Reinforcement Learning</a> by David Silver</li>
 <li>[UC Berkeley] CS188 Artificial Intelligence by Pieter Abbeel
 
 <ul>
@@ -131,6 +139,7 @@
 </li>
 <li>[Udacity (Georgia Tech.)] <a href="https://www.udacity.com/course/machine-learning-reinforcement-learning--ud820">Machine Learning 3: Reinforcement Learning (CS7641)</a>
 </li>
+<li>[Stanford] <a href="https://www.youtube.com/watch?v=RtxI449ZjSc&amp;feature=relmfu">CS229 Machine Learning - Lecture 16: Reinforcement Learning</a> by Andrew Ng</li>
 </ul>
 
 <h3>
@@ -160,10 +169,16 @@
 </li>
 <li>Littman, Michael L. "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. <a href="http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html">[Paper]</a>
 </li>
+<li>Marc P. Deisenroth, Gerhard Neumann, Jan Peter, A Survey on Policy Search for Robotics, Foundations and Trends in Robotics, 2014. <a href="https://spiral.imperial.ac.uk:8443/bitstream/10044/1/12051/7/fnt_corrected_2014-8-22.pdf">[Book]</a>
+</li>
 </ul>
 
 <h3>
 <a id="papers--thesis" class="anchor" href="#papers--thesis" aria-hidden="true"><span class="octicon octicon-link"></span></a>Papers / Thesis</h3>
+
+<ul>
+<li>
+<p>Foundational Papers</p>
 
 <ul>
 <li>Marvin Minsky, Steps toward Artificial Intelligence, Proceedings of the IRE, 1961. <a href="http://staffweb.worc.ac.uk/DrC/Courses%202010-11/Comp%203104/Tutor%20Inputs/Session%209%20Prep/Reading%20material/Minsky60steps.pdf">[Paper]</a>
@@ -175,20 +190,92 @@
 <li>Ian H. Witten, An Adaptive Optimal Controller for Discrete-Time Markov Environments, Information and Control, 1977. <a href="http://www.cs.waikato.ac.nz/%7Eihw/papers/77-IHW-AdaptiveController.pdf">[Paper]</a>
 
 <ul>
-<li>earliest publication on temporal-difference (TD) learning rule.<br>
+<li>earliest publication on temporal-difference (TD) learning rule. </li>
+</ul>
 </li>
 </ul>
 </li>
+<li>
+<p>Solution Methods</p>
+
+<ul>
+<li>Dynamic Programming (DP):
+
+<ul>
+<li>Christopher J. C. H. Watkins, Learning from Delayed Rewards, Ph.D. Thesis, Cambridge University, 1989. <a href="https://www.cs.rhul.ac.uk/home/chrisw/new_thesis.pdf">[Thesis]</a>
+</li>
+</ul>
+</li>
+<li>Monte Carlo: 
+
+<ul>
+<li>Andrew Barto, Michael Duff, Monte Carlo Inversion and Reinforcement Learning, NIPS, 1994. <a href="http://papers.nips.cc/paper/865-monte-carlo-matrix-inversion-and-reinforcement-learning.pdf">[Paper]</a>
+</li>
+<li>Satinder P. Singh, Richard S. Sutton, Reinforcement Learning with Replacing Eligibility Traces, Machine Learning, 1996. <a href="http://www-all.cs.umass.edu/pubs/1995_96/singh_s_ML96.pdf">[Paper]</a>
+</li>
+</ul>
+</li>
+<li>Temporal-Difference: 
+
+<ul>
+<li>Richard S. Sutton, Learning to predict by the methods of temporal differences. Machine Learning 3: 9-44, 1988. <a href="http://webdocs.cs.ualberta.ca/%7Esutton/papers/sutton-88-with-erratum.pdf">[Paper]</a>
+</li>
+</ul>
+</li>
+<li>Q-Learning (Off-policy TD algorithm):
+
+<ul>
 <li>Chris Watkins, Learning from Delayed Rewards, Cambridge, 1989. <a href="http://www.cs.rhul.ac.uk/home/chrisw/thesis.html">[Thesis]</a>
-
-<ul>
-<li>develops Q-learning, brings together temporal-difference and optimal control fields</li>
+</li>
 </ul>
 </li>
-<li>C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. <a href="http://image.diku.dk/igel/paper/RLiaN.pdf">[Paper]</a>
+<li>Sarsa (On-policy TD algorithm):
 
 <ul>
-<li>provides brief overview and introduction to reinforcement learning </li>
+<li>G.A. Rummery, M. Niranjan, On-line Q-learning using connectionist systems, Technical Report, Cambridge Univ., 1994. <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=3&amp;ved=0CDIQFjACahUKEwj2lMm5wZDIAhUHkg0KHa6kAVM&amp;url=ftp%3A%2F%2Fmi.eng.cam.ac.uk%2Fpub%2Freports%2Fauto-pdf%2Frummery_tr166.pdf&amp;usg=AFQjCNHz6IrgcaaO5lzC7t8oEIBY9epozg&amp;sig2=sa-emPme1m5Jav7YmaXsNQ&amp;cad=rja">[Report]</a>
+</li>
+<li>Richard S. Sutton, Generalization in Reinforcement Learning: Successful examples using sparse coding, NIPS, 1996. <a href="http://webdocs.cs.ualberta.ca/%7Esutton/papers/sutton-96.pdf">[Paper]</a>
+</li>
+</ul>
+</li>
+<li>R-Learning (learning of relative values)
+
+<ul>
+<li>Andrew Schwartz, A Reinforcement Learning Method for Maximizing Undiscounted Rewards, ICML, 1993. <a href="https://scholar.google.com/scholar?q=reinforcement+learning+method+for+maximizing+undiscounted+rewards&amp;hl=en&amp;as_sdt=0&amp;as_vis=1&amp;oi=scholart&amp;sa=X&amp;ved=0CBsQgQMwAGoVChMIho6p_MOQyAIVwh0eCh3XWAwM">[Paper-Google Scholar]</a>
+</li>
+</ul>
+</li>
+<li>Function Approximation methods (Least-Sqaure Temporal Difference, Least-Sqaure Policy Iteration)
+
+<ul>
+<li>Steven J. Bradtke, Andrew G. Barto, Linear Least-Squares Algorithms for Temporal Difference Learning, Machine Learning, 1996. <a href="http://www-anw.cs.umass.edu/pubs/1995_96/bradtke_b_ML96.pdf">[Paper]</a>
+</li>
+<li>Michail G. Lagoudakis, Ronald Parr, Model-Free Least Squares Policy Iteration, NIPS, 2001. <a href="http://www.cs.duke.edu/research/AI/LSPI/nips01.pdf">[Paper]</a> <a href="http://www.cs.duke.edu/research/AI/LSPI/">[Code]</a>
+</li>
+</ul>
+</li>
+<li>Policy Search (in application to Robotics)
+
+<ul>
+<li>Nate Kohl, Peter Stone, Policy Gradient Reinforcement Learning for Fast Quadrupedal Locomotion, ICRA, 2004. <a href="http://www.cs.utexas.edu/%7Epstone/Papers/bib2html-links/icra04.pdf">[Paper]</a>
+</li>
+<li>Marc Deisenroth, Carl Rasmussen, PILCO: A Model-Based and Data-Efficient Approach to Policy Search, ICML, 2011. <a href="http://mlg.eng.cam.ac.uk/pub/pdf/DeiRas11.pdf">[Paper]</a>
+</li>
+<li>Jan Peters, Sethu Vijayakumar, Stefan Schaal, Natural Actor-Critic, ECML, 2005. <a href="https://homes.cs.washington.edu/%7Etodorov/courses/amath579/reading/NaturalActorCritic.pdf">[Paper]</a>
+</li>
+<li>Scott Kuindersma, Roderic Grupen, Andrew Barto, Learning Dynamic Arm Motions for Postural Recovery, Humanoids, 2011. <a href="http://www-all.cs.umass.edu/pubs/2011/kuindersma_g_b_11.pdf">[Paper]</a>
+</li>
+</ul>
+</li>
+<li>Hierarchical RL
+
+<ul>
+<li>Richard Sutton, Doina Precup, Satinder Singh, Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning, Artificial Intelligence, 1999. <a href="https://webdocs.cs.ualberta.ca/%7Esutton/papers/SPS-aij.pdf">[Paper]</a>
+</li>
+<li>George Konidaris, Andrew Barto, Building Portable Options: Skill Transfer in Reinforcement Learning, IJCAI, 2007. <a href="http://www-anw.cs.umass.edu/pubs/2007/konidaris_b_IJCAI07.pdf">[Paper]</a>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -231,13 +318,20 @@
 <a id="robotics" class="anchor" href="#robotics" aria-hidden="true"><span class="octicon octicon-link"></span></a>Robotics</h3>
 
 <ul>
+<li>Reinforcement Learning for Humanoid Robotics (ICHR 2003) <a href="http://www-clmc.usc.edu/publications/p/peters-ICHR2003.pdf">[Paper]</a>
+</li>
+<li>Policy Gradient Reinforcement Learning for Fast Quadrupedal Locomotion (ICRA 2004) <a href="http://www.cs.utexas.edu/%7Epstone/Papers/bib2html-links/icra04.pdf">[Paper]</a>
+</li>
 <li>Robot Motor SKill Coordination with EM-based Reinforcement Learning (IROS 2010) <a href="http://kormushev.com/papers/Kormushev-IROS2010.pdf">[Paper]</a> <a href="https://www.youtube.com/watch?v=W_gxLKSsSIE">[Video]</a>
 </li>
+<li>Generalized Model Learning for Reinforcement Learning on a Humanoid Robot (ICRA 2010) <a href="https://ccc.inaoep.mx/%7Emdprl/documentos/Hester_2010.pdf">[Paper]</a> <a href="https://www.youtube.com/watch?v=mRpX9DFCdwI&amp;list=PL5nBAYUyJTrM48dViibyi68urttMlUv7e&amp;index=12">[Video]</a> </li>
 <li>Autonomous Skill Acquisition on a Mobile Manipulator (AAAI 2011) <a href="https://www.youtube.com/watch?v=yUICAkSQTZY">[Paper]</a> <a href="https://www.youtube.com/watch?v=yUICAkSQTZY">[Video]</a>
 </li>
-<li>Efficient Reinforcement Learning for Robots using Informative Simulated Priors (ICRA 2015) <a href="http://markjcutler.com/papers/Cutler15_ICRA.pdf">[Paper]</a> <a href="https://www.youtube.com/watch?v=kKClFx6l1HY">[Video]</a>
+<li>PILCO: A Model-Based and Data-Efficient Approach to Policy Search (ICML 2011) <a href="http://mlg.eng.cam.ac.uk/pub/pdf/DeiRas11.pdf">[Paper]</a>
 </li>
-<li>Generalized Model Learning for Reinforcement Learning on a Humanoid Robot (ICRA 2010) <a href="https://ccc.inaoep.mx/%7Emdprl/documentos/Hester_2010.pdf">[Paper]</a> <a href="https://www.youtube.com/watch?v=mRpX9DFCdwI&amp;list=PL5nBAYUyJTrM48dViibyi68urttMlUv7e&amp;index=12">[Video]</a>
+<li>Incremental Semantically Grounded Learning from Demonstration (RSS 2013) <a href="http://people.cs.umass.edu/%7Esniekum/pubs/NiekumRSS2013.pdf">[Paper]</a>
+</li>
+<li>Efficient Reinforcement Learning for Robots using Informative Simulated Priors (ICRA 2015) <a href="http://markjcutler.com/papers/Cutler15_ICRA.pdf">[Paper]</a> <a href="https://www.youtube.com/watch?v=kKClFx6l1HY">[Video]</a>
 </li>
 </ul>
 
@@ -270,13 +364,13 @@
 </ul>
 
 <h2>
-<a id="datasets" class="anchor" href="#datasets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Datasets</h2>
-
-<h2>
-<a id="tutorials" class="anchor" href="#tutorials" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorials</h2>
+<a id="tutorials--websites" class="anchor" href="#tutorials--websites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorials / Websites</h2>
 
 <ul>
 <li>Mance Harmon and Stephanie Harmon, <a href="http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf">Reinforcement Learning: A Tutorial</a>
+</li>
+<li><a href="http://webdocs.cs.ualberta.ca/%7Evanhasse/rl_algs/rl_algs.html">Short introduction to some Reinforcement Learning algorithms</a></li>
+<li>C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. <a href="http://image.diku.dk/igel/paper/RLiaN.pdf">[Paper]</a>
 </li>
 <li>UNSW - <a href="http://www.cse.unsw.edu.au/%7Ecs9417ml/RL1/index.html">Reinforcement Learning</a>
 
@@ -291,13 +385,23 @@
 </li>
 <li><a href="http://wiki.ros.org/reinforcement_learning/Tutorials/Reinforcement%20Learning%20Tutorial">ROS Reinforcement Learning Tutorial</a></li>
 <li><a href="http://cs.brown.edu/research/ai/pomdp/tutorial/index.html">POMDP for Dummies</a></li>
+<li>Scholarpedia articles on:
+
+<ul>
+<li>
+<a href="http://www.scholarpedia.org/article/Reinforcement_learning">Reinforcement Learning</a> </li>
+<li><a href="http://www.scholarpedia.org/article/Temporal_difference_learning">Temporal Difference Learning</a></li>
+</ul>
+</li>
+<li>Repository with useful <a href="http://busoniu.net/repository.php">MATLAB Software, presentations, and demo videos</a> </li>
+<li><a href="http://liinwww.ira.uka.de/bibliography/Neural/reinforcement.learning.html">Bibliography on Reinforcement Learning</a></li>
 </ul>
 
 <h2>
 <a id="online-demos" class="anchor" href="#online-demos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Online Demos</h2>
 
 <ul>
-<li><a href="blank">blank</a></li>
+<li><a href="http://www.dcsc.tudelft.nl/%7Erobotics/media.html">Real-world demonstrations of Reinforcement Learning</a></li>
 </ul>
         </article>
       </div>
