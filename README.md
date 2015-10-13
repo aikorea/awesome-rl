@@ -49,6 +49,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [Implementation of RL algorithms in Python/C++](http://webdocs.cs.ualberta.ca/~vanhasse/code.html)
  - [Policy Gradient Reinforcement Learning Toolbox for MATLAB](http://www.ias.informatik.tu-darmstadt.de/Research/PolicyGradientToolbox)
  - [PIQLE](http://sourceforge.net/projects/piqle/) - Platform Implementing Q-LEarning and other RL algorithms
+ - [BeliefBox](https://code.google.com/p/beliefbox/) - Bayesian reinforcement learning library and toolkit
 
 ## Theory
 
