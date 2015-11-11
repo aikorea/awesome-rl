@@ -165,6 +165,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Temporal Difference Learning](http://www.scholarpedia.org/article/Temporal_difference_learning)
   - Repository with useful [MATLAB Software, presentations, and demo videos](http://busoniu.net/repository.php) 
   - [Bibliography on Reinforcement Learning](http://liinwww.ira.uka.de/bibliography/Neural/reinforcement.learning.html)
+  - UC Berkeley - CS 294: Deep Reinforcement Learning, Fall 2015 (John Schulman, Pieter Abbeel) [[Class Website]](http://rll.berkeley.edu/deeprlcourse/)
 
 ## Online Demos
  - [Real-world demonstrations of Reinforcement Learning](http://www.dcsc.tudelft.nl/~robotics/media.html)
