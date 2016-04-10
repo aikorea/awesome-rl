@@ -47,7 +47,6 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [RLPy Framework](http://rlpy.readthedocs.org/en/latest/) -  Value-Function-Based Reinforcement Learning Framework for Education and Research
  - [Maja](http://mmlf.sourceforge.net/) - Machine learning framework for problems in Reinforcement Learning in python
  - [TeachingBox](http://servicerobotik.hs-weingarten.de/en/teachingbox.php) - Java based Reinforcement Learning framework
- - [Implementation of RL algorithms in Python/C++](http://webdocs.cs.ualberta.ca/~vanhasse/code.html)
  - [Policy Gradient Reinforcement Learning Toolbox for MATLAB](http://www.ias.informatik.tu-darmstadt.de/Research/PolicyGradientToolbox)
  - [PIQLE](http://sourceforge.net/projects/piqle/) - Platform Implementing Q-LEarning and other RL algorithms
  - [BeliefBox](https://code.google.com/p/beliefbox/) - Bayesian reinforcement learning library and toolkit
