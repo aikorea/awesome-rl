@@ -125,7 +125,14 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
     - Tom Schaul, John Quan, Ioannis Antonoglou, David Silver, Prioritized Experience Replay, ArXiv, 18 Nov 2015. [[ArXiv]](http://arxiv.org/pdf/1511.05952v2.pdf)
     - Hado van Hasselt, Arthur Guez, David Silver, Deep Reinforcement Learning with Double Q-Learning, ArXiv, 22 Sep 2015. [[ArXiv]](http://arxiv.org/abs/1509.06461)
     - Volodymyr Mnih, Adrià Puigdomènech Badia, Mehdi Mirza, Alex Graves, Timothy P. Lillicrap, Tim Harley, David Silver, Koray Kavukcuoglu, Asynchronous Methods for Deep Reinforcement Learning, ArXiv, 4 Feb 2016.[[ArXiv]](https://arxiv.org/abs/1602.01783)
-    
+
+- Neuroscience/Biology Papers  
+	- Doya, K. Reinforcement learning: computational theory and biological mechanisms. HFSPJ, 2007.[[Paper]](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2645553/pdf/HJFOA5-000001-000030_1.pdf)  
+	- Daw, ND, and Doya, K. The computational neurobiology of learning and reward. Current Opinion in Neurobiology, 2006 [[Paper]](http://www.gatsby.ucl.ac.uk/~mandana/RLRG/dd06.pdf)  
+	- O’Doherty JP, Dayan P, Friston K, Critchley H, and Dolan RJ. Temporal difference models and reward-related learning  in the human brain, Neuron, 2006. [[Paper]](http://www.gatsby.ucl.ac.uk/~dayan/papers/odfcd03.pdf)  
+	- Dayan P, and Balleine BW. Reward, motivation, and reinforcement learning. Neuron, 2002 [[Paper]](http://www.gatsby.ucl.ac.uk/~dayan/papers/db02.pdf)  
+
+
 
 ## Applications
 ### Game Playing
@@ -147,7 +154,8 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
   - PILCO: A Model-Based and Data-Efficient Approach to Policy Search (Deisenroth, ICML 2011) [[Paper]](http://mlg.eng.cam.ac.uk/pub/pdf/DeiRas11.pdf)
   - Incremental Semantically Grounded Learning from Demonstration (Niekum, RSS 2013) [[Paper]](http://people.cs.umass.edu/~sniekum/pubs/NiekumRSS2013.pdf)
   - Efficient Reinforcement Learning for Robots using Informative Simulated Priors (Cutler, ICRA 2015) [[Paper]](http://markjcutler.com/papers/Cutler15_ICRA.pdf) [[Video]](https://www.youtube.com/watch?v=kKClFx6l1HY)
-
+  - Acquisition of stand-up behavior by a real robot using hierarchical reinforcement learning. (Morimoto, Robotics and Autonomous Systems 2001)[[Paper]](http://www.cns.atr.jp/erato/xmorimo/icml00.pdf)
+  - Bipedal walking energy minimization by reinforcement learning with evolving policy parameterization. (Kormushev, IROS 2011)[[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.348.4609&rep=rep1&type=pdf)
 
 ### Control
   - An Application of Reinforcement Learning to Aerobatic Helicopter Flight (Abbeel, NIPS 2006) [[Paper]](http://heli.stanford.edu/papers/nips06-aerobatichelicopter.pdf) [[Video]](https://www.youtube.com/watch?v=VCdxqn0fcnE)
