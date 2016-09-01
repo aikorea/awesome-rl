@@ -51,6 +51,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [PIQLE](http://sourceforge.net/projects/piqle/) - Platform Implementing Q-LEarning and other RL algorithms
  - [BeliefBox](https://code.google.com/p/beliefbox/) - Bayesian reinforcement learning library and toolkit
  - [Deep Q-Learning with Tensor Flow](https://github.com/nivwusquorum/tensorflow-deepq) - A deep Q learning demonstration using Google Tensorflow
+ - [Atari](https://github.com/Kaixhin/Atari) - Deep Q-networks and asynchronous agents in Torch
 
 ## Theory
 
