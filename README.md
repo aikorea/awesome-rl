@@ -31,6 +31,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ## Codes
  - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
+  - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
   - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
   - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
   - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
