@@ -66,6 +66,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Lecture 11: Reinforcement Learning 2](https://www.youtube.com/watch?v=Si1_YTw960c)
  - [Udacity (Georgia Tech.)] [Machine Learning 3: Reinforcement Learning (CS7641)](https://www.udacity.com/course/machine-learning-reinforcement-learning--ud820)
  - [Stanford] [CS229 Machine Learning - Lecture 16: Reinforcement Learning](https://www.youtube.com/watch?v=RtxI449ZjSc&feature=relmfu) by Andrew Ng
+ - [Berkeley] [CS 294: Deep Reinforcement Learning, Fall 2015](http://rll.berkeley.edu/deeprlcourse/) by John Schulman and Pieter Abbeel
 
 
 ### Books
