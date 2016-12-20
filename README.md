@@ -205,3 +205,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [DeepMind Lab](https://github.com/deepmind/lab) - A customisable 3D platform for agent-based AI research
  - [Project Malmo](https://github.com/Microsoft/malmo) - A platform for Artificial Intelligence experimentation and research built on top of Minecraft by Microsoft
  - [ViZDoom](https://github.com/Marqt/ViZDoom) - Doom-based AI research platform for reinforcement learning from raw visual information
+ - [torch-twrl](https://github.com/twitter/torch-twrl) - A package that enables reinforcement learning in Torch by Twitter
+ - [UETorch](https://github.com/facebook/UETorch) - A Torch plugin for Unreal Engine 4 by Facebook
+ - [TorchCraft](https://github.com/TorchCraft/TorchCraft) - Connecting Torch to StarCraft
+ - [rllab](https://github.com/openai/rllab) - A framework for developing and evaluating reinforcement learning algorithms, fully compatible with OpenAI Gym
