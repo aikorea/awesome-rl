@@ -28,6 +28,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Human Computer Interaction](#human-computer-interaction)
  - [Tutorials / Websites](#tutorials--websites)
  - [Online Demos](#online-demos)
+ - [Open Source Reinforcement Learning Platforms](#open-source-reinforcement-learning-platforms)
 
 ## Codes
  - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
