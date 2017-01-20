@@ -59,7 +59,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 ## Theory
 
 ### Lectures
-
+ - [CMU] [10703: Deep Reinforcement Learning and Control, Spring 2017](https://www.cs.cmu.edu/~katef/DeepRLControlCourse/index.html)
  - [UCL] [COMPM050/COMPGI13 Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) by David Silver
  - [UC Berkeley] CS188 Artificial Intelligence by Pieter Abbeel
    - [Lecture 8: Markov Decision Processes 1](https://www.youtube.com/watch?v=i0o-ui1N35U)
