@@ -1,4 +1,4 @@
-﻿# Awesome Reinforcement Learning
+# Awesome Reinforcement Learning
 
 A curated list of resources dedicated to reinforcement learning.
 
