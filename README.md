@@ -210,3 +210,4 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [UETorch](https://github.com/facebook/UETorch) - A Torch plugin for Unreal Engine 4 by Facebook
  - [TorchCraft](https://github.com/TorchCraft/TorchCraft) - Connecting Torch to StarCraft
  - [rllab](https://github.com/openai/rllab) - A framework for developing and evaluating reinforcement learning algorithms, fully compatible with OpenAI Gym
+- [TensorForce](https://github.com/reinforceio/tensorforce) - Practical deep reinforcement learning on TensorFlow with Gitter support and OpenAI Gym/Universe/DeepMind Lab integration.
