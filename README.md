@@ -202,7 +202,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ## Open Source Reinforcement Learning Platforms
  - [OpenAI gym](https://github.com/openai/gym) - A toolkit for developing and comparing reinforcement learning algorithms
- - [OpenAI universe](https://github.com/openai/universe) - A software platform for measruing and training an AI's general intelligence across the world's supply of games, websites and other applications
+ - [OpenAI universe](https://github.com/openai/universe) - A software platform for measuring and training an AI's general intelligence across the world's supply of games, websites and other applications
  - [DeepMind Lab](https://github.com/deepmind/lab) - A customisable 3D platform for agent-based AI research
  - [Project Malmo](https://github.com/Microsoft/malmo) - A platform for Artificial Intelligence experimentation and research built on top of Minecraft by Microsoft
  - [ViZDoom](https://github.com/Marqt/ViZDoom) - Doom-based AI research platform for reinforcement learning from raw visual information
@@ -211,3 +211,4 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [TorchCraft](https://github.com/TorchCraft/TorchCraft) - Connecting Torch to StarCraft
  - [rllab](https://github.com/openai/rllab) - A framework for developing and evaluating reinforcement learning algorithms, fully compatible with OpenAI Gym
 - [TensorForce](https://github.com/reinforceio/tensorforce) - Practical deep reinforcement learning on TensorFlow with Gitter support and OpenAI Gym/Universe/DeepMind Lab integration.
+- [OpenAI lab](https://github.com/kengz/openai_lab) - An experimentation system for Reinforcement Learning using OpenAI Gym, Tensorflow, and Keras.
