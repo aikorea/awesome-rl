@@ -71,8 +71,6 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [CMU] [10703: Deep Reinforcement Learning and Control, Spring 2017](https://katefvision.github.io/)
  - [MIT] [6.S094: Deep Learning for Self-Driving Cars](http://selfdrivingcars.mit.edu/)
    - [Lecture 2: Deep Reinforcement Learning for Motion Planning](https://www.youtube.com/watch?v=QDzM8r3WgBw&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
- - [Practical_RL](https://github.com/yandexdataschool/Practical_RL) - github-based course in reinforcement learning in the wild (lectures, coding labs, projects)
-
 
 
 ### Books
@@ -168,7 +166,6 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ### Human Computer Interaction
   - Optimizing Dialogue Management with Reinforcement Learning: Experiments with the NJFun System (Singh, JAIR 2002) [[Paper]](http://web.eecs.umich.edu/~baveja/Papers/RLDSjair.pdf)
-  - Tutorial on neural machine translation & g2p using policy gradients with SCST baseline - [turorial](https://github.com/yandexdataschool/Practical_RL/tree/week8/week8)
 
 
 
@@ -194,6 +191,8 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
   - [Demystifying Deep Reinforcement Learning](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/) 
   - [Let’s make a DQN](https://jaromiru.com/2016/09/27/lets-make-a-dqn-theory/) 
   - [Simple Reinforcement Learning with Tensorflow, Parts 0-8](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0#.78km20i8r) by Arthur Juliani
+  - [Practical_RL](https://github.com/yandexdataschool/Practical_RL) - github-based course in reinforcement learning in the wild (lectures, coding labs, projects)
+
 
 
 ## Online Demos
