@@ -77,7 +77,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 
 ### Books
- - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction [[Book]](http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf) [[Code]](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+ - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/sutton/book/bookdraft2017june19.pdf) [[Code]](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
  - Csaba Szepesvari, Algorithms for Reinforcement Learning [[Book]](http://www.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
  - David Poole and Alan Mackworth, Artificial Intelligence: Foundations of Computational Agents [[Book Chapter]](http://artint.info/html/ArtInt_262.html)
  - Dimitri P. Bertsekas and John N. Tsitsiklis, Neuro-Dynamic Programming [[Book (Amazon)]](http://www.amazon.com/Neuro-Dynamic-Programming-Optimization-Neural-Computation/dp/1886529108/ref=sr_1_3?s=books&ie=UTF8&qid=1442461075&sr=1-3&refinements=p_27%3AJohn+N.+Tsitsiklis+Dimitri+P.+Bertsekas) [[Summary]](http://www.mit.edu/~dimitrib/NDP_Encycl.pdf)
