@@ -32,13 +32,13 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ## Codes
  - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
-  - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
-  - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
-  - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
-  - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+    - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+    - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
+    - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
+    - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
  - Simulation code for Reinforcement Learning Control Problems
-  - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
-  - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
+    - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
+    - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
  - [MATLAB Environment and GUI for Reinforcement Learning](http://www.cs.colostate.edu/~anderson/res/rl/matlabpaper/rl.html)
  - [Reinforcement Learning Repository - University of Massachusetts, Amherst](http://www-anw.cs.umass.edu/rlr/)
  - [Brown-UMBC Reinforcement Learning and Planning Library (Java)](http://burlap.cs.brown.edu/)
