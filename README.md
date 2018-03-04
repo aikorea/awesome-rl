@@ -35,7 +35,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
   - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
   - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
   - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
-  - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+  - [Book](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
  - Simulation code for Reinforcement Learning Control Problems
   - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
   - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
@@ -225,3 +225,4 @@ Computer Games
 - [BURLAP](http://burlap.cs.brown.edu) - Brown-UMBC Reinforcement Learning and Planning, a library written in Java
 - [MAgent](https://github.com/geek-ai/MAgent) - A Platform for Many-agent Reinforcement Learning. 
 - [Ray RLlib](http://ray.readthedocs.io/en/latest/rllib.html) - Ray RLlib is a reinforcement learning library that aims to provide both performance and composability.
+- [yarlp](http://github.com/btaba/yarlp) - Reproducible baseline experiments for classic RL algorithms.
