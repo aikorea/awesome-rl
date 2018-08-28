@@ -225,3 +225,4 @@ Computer Games
 - [BURLAP](http://burlap.cs.brown.edu) - Brown-UMBC Reinforcement Learning and Planning, a library written in Java
 - [MAgent](https://github.com/geek-ai/MAgent) - A Platform for Many-agent Reinforcement Learning. 
 - [Ray RLlib](http://ray.readthedocs.io/en/latest/rllib.html) - Ray RLlib is a reinforcement learning library that aims to provide both performance and composability.
+- [Dopamine](https://github.com/google/dopamine) - A research framework for fast prototyping of reinforcement learning algorithms by Google.
