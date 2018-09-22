@@ -32,13 +32,13 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ## Codes
  - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
-  - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
-  - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
-  - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
-  - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+    - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+    - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
+    - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
+    - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
  - Simulation code for Reinforcement Learning Control Problems
-  - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
-  - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
+    - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
+    - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
  - [MATLAB Environment and GUI for Reinforcement Learning](http://www.cs.colostate.edu/~anderson/res/rl/matlabpaper/rl.html)
  - [Reinforcement Learning Repository - University of Massachusetts, Amherst](http://www-anw.cs.umass.edu/rlr/)
  - [Brown-UMBC Reinforcement Learning and Planning Library (Java)](http://burlap.cs.brown.edu/)
@@ -56,7 +56,9 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [Atari](https://github.com/Kaixhin/Atari) - Deep Q-networks and asynchronous agents in Torch
  - [AgentNet](https://github.com/yandexdataschool/AgentNet) - A python library for deep reinforcement learning and custom recurrent networks using Theano+Lasagne.
  - [Reinforcement Learning Examples by RLCode](https://github.com/rlcode/reinforcement-learning) - A Collection of minimal and clean reinforcement learning examples
+ - [OpenAI Baselines](https://github.com/openai/baselines) - Well tested implementations ([and results](https://github.com/openai/baselines-results)) of reinforcement learning algorithms from OpenAI 
  - [PyTorch Deep RL](https://github.com/ShangtongZhang/DeepRL) - Popular deep RL algorithm implementations with PyTorch
+ - [ChainerRL](https://github.com/chainer/chainerrl) - Popular deep RL algorithm implementations with Chainer
  - [Black-DROPS](https://github.com/resibots/blackdrops) - Modular and generic code for the model-based policy search Black-DROPS algorithm (IROS 2017 paper) and easy integration with the [DART](http://dartsim.github.io/) simulator
 
 ## Theory
@@ -75,7 +77,14 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [CMU] [10703: Deep Reinforcement Learning and Control, Spring 2017](https://katefvision.github.io/)
  - [MIT] [6.S094: Deep Learning for Self-Driving Cars](http://selfdrivingcars.mit.edu/)
    - [Lecture 2: Deep Reinforcement Learning for Motion Planning](https://www.youtube.com/watch?v=QDzM8r3WgBw&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
-
+ - [Siraj Raval]: Introduction to AI for Video Games (Reinforcement Learning Video Series)
+   - [Introduction to AI for video games] (https://youtu.be/i_McNBDP9Qs)
+   - [Monte Carlo Prediction] (https://youtu.be/-YpalutQCKw)
+   - [Q learning explained] (https://youtu.be/aCEvtRtNO-M)
+   - [Solving the basic game of Pong] (https://youtu.be/pN7ETkOizGM)
+   - [Actor Critic Algorithms] (https://youtu.be/w_3mmm0P0j8)
+   - [War Robots] (https://youtu.be/tm5kQmjfZN8)
+    
 
 ### Books
  - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998) [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
@@ -92,6 +101,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
  - Michael L. Littman, "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
  - Marc P. Deisenroth, Gerhard Neumann, Jan Peter, A Survey on Policy Search for Robotics, Foundations and Trends in Robotics, 2014. [[Book]](https://spiral.imperial.ac.uk:8443/bitstream/10044/1/12051/7/fnt_corrected_2014-8-22.pdf)
+ - Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, Anil Anthony Bharath, A Brief Survey of Deep Rei nforcement Learning, IEEE Signal Processing Magazine, 2017. [[Paper]](https://arxiv.org/abs/1708.05866)
 
 ### Papers / Thesis
 Foundational Papers
@@ -179,15 +189,15 @@ Computer Games
   - Mance Harmon and Stephanie Harmon, [Reinforcement Learning: A Tutorial](http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf)
   - C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. [[Paper]](http://image.diku.dk/igel/paper/RLiaN.pdf)
   - UNSW - [Reinforcement Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/index.html)
-   - [Introduction](http://www.cse.unsw.edu.au/~cs9417ml/RL1/introduction.html)
-   - [TD-Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/tdlearning.html)
-   - [Q-Learning and SARSA](http://www.cse.unsw.edu.au/~cs9417ml/RL1/algorithms.html)
-   - [Applet for "Cat and Mouse" Game](http://www.cse.unsw.edu.au/~cs9417ml/RL1/applet.html)
+    - [Introduction](http://www.cse.unsw.edu.au/~cs9417ml/RL1/introduction.html)
+    - [TD-Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/tdlearning.html)
+    - [Q-Learning and SARSA](http://www.cse.unsw.edu.au/~cs9417ml/RL1/algorithms.html)
+    - [Applet for "Cat and Mouse" Game](http://www.cse.unsw.edu.au/~cs9417ml/RL1/applet.html)
   - [ROS Reinforcement Learning Tutorial](http://wiki.ros.org/reinforcement_learning/Tutorials/Reinforcement%20Learning%20Tutorial)
   - [POMDP for Dummies](http://cs.brown.edu/research/ai/pomdp/tutorial/index.html)
   - Scholarpedia articles on:
-   - [Reinforcement Learning](http://www.scholarpedia.org/article/Reinforcement_learning)
-   - [Temporal Difference Learning](http://www.scholarpedia.org/article/Temporal_difference_learning)
+    - [Reinforcement Learning](http://www.scholarpedia.org/article/Reinforcement_learning)
+    - [Temporal Difference Learning](http://www.scholarpedia.org/article/Temporal_difference_learning)
   - Repository with useful [MATLAB Software, presentations, and demo videos](http://busoniu.net/repository.php)
   - [Bibliography on Reinforcement Learning](http://liinwww.ira.uka.de/bibliography/Neural/reinforcement.learning.html)
   - UC Berkeley - CS 294: Deep Reinforcement Learning, Fall 2015 (John Schulman, Pieter Abbeel) [[Class Website]](http://rll.berkeley.edu/deeprlcourse/)
@@ -209,16 +219,16 @@ Computer Games
 
 
 ## Open Source Reinforcement Learning Platforms
- - [OpenAI gym](https://github.com/openai/gym) - A toolkit for developing and comparing reinforcement learning algorithms
- - [OpenAI universe](https://github.com/openai/universe) - A software platform for measuring and training an AI's general intelligence across the world's supply of games, websites and other applications
- - [DeepMind Lab](https://github.com/deepmind/lab) - A customisable 3D platform for agent-based AI research
- - [Project Malmo](https://github.com/Microsoft/malmo) - A platform for Artificial Intelligence experimentation and research built on top of Minecraft by Microsoft
- - [ViZDoom](https://github.com/Marqt/ViZDoom) - Doom-based AI research platform for reinforcement learning from raw visual information
+- [OpenAI gym](https://github.com/openai/gym) - A toolkit for developing and comparing reinforcement learning algorithms
+- [OpenAI universe](https://github.com/openai/universe) - A software platform for measuring and training an AI's general intelligence across the world's supply of games, websites and other applications
+- [DeepMind Lab](https://github.com/deepmind/lab) - A customisable 3D platform for agent-based AI research
+- [Project Malmo](https://github.com/Microsoft/malmo) - A platform for Artificial Intelligence experimentation and research built on top of Minecraft by Microsoft
+- [ViZDoom](https://github.com/Marqt/ViZDoom) - Doom-based AI research platform for reinforcement learning from raw visual information
 - [Retro Learning Environment](https://github.com/nadavbh12/Retro-Learning-Environment) - An AI platform for reinforcement learning based on video game emulators. Currently supports SNES and Sega Genesis. Compatible with OpenAI gym.
 - [torch-twrl](https://github.com/twitter/torch-twrl) - A package that enables reinforcement learning in Torch by Twitter
- - [UETorch](https://github.com/facebook/UETorch) - A Torch plugin for Unreal Engine 4 by Facebook
- - [TorchCraft](https://github.com/TorchCraft/TorchCraft) - Connecting Torch to StarCraft
- - [rllab](https://github.com/openai/rllab) - A framework for developing and evaluating reinforcement learning algorithms, fully compatible with OpenAI Gym
+- [UETorch](https://github.com/facebook/UETorch) - A Torch plugin for Unreal Engine 4 by Facebook
+- [TorchCraft](https://github.com/TorchCraft/TorchCraft) - Connecting Torch to StarCraft
+- [rllab](https://github.com/openai/rllab) - A framework for developing and evaluating reinforcement learning algorithms, fully compatible with OpenAI Gym
 - [TensorForce](https://github.com/reinforceio/tensorforce) - Practical deep reinforcement learning on TensorFlow with Gitter support and OpenAI Gym/Universe/DeepMind Lab integration.
 - [OpenAI lab](https://github.com/kengz/openai_lab) - An experimentation system for Reinforcement Learning using OpenAI Gym, Tensorflow, and Keras.
 - [keras-rl](https://github.com/matthiasplappert/keras-rl) - State-of-the art deep reinforcement learning algorithms in Keras designed for compatibility with OpenAI.
@@ -226,3 +236,5 @@ Computer Games
 - [MAgent](https://github.com/geek-ai/MAgent) - A Platform for Many-agent Reinforcement Learning. 
 - [Ray RLlib](http://ray.readthedocs.io/en/latest/rllib.html) - Ray RLlib is a reinforcement learning library that aims to provide both performance and composability.
 - [SLM Lab](https://github.com/kengz/SLM-Lab) - A research framework for Deep Reinforcement Learning using Unity, OpenAI Gym, PyTorch, Tensorflow.
+- [Unity ML Agents](https://github.com/Unity-Technologies/ml-agents) - Create reinforcement learning environments using the Unity Editor
+- [Intel Coach](https://github.com/NervanaSystems/coach) - Coach is a python reinforcement learning research framework containing implementation of many state-of-the-art algorithms.
