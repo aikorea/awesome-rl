@@ -240,4 +240,4 @@ Computer Games
 - [SLM Lab](https://github.com/kengz/SLM-Lab) - A research framework for Deep Reinforcement Learning using Unity, OpenAI Gym, PyTorch, Tensorflow.
 - [Unity ML Agents](https://github.com/Unity-Technologies/ml-agents) - Create reinforcement learning environments using the Unity Editor
 - [Intel Coach](https://github.com/NervanaSystems/coach) - Coach is a python reinforcement learning research framework containing implementation of many state-of-the-art algorithms.
-- [RLgraph](https://github.com/rlgraph/rlgraph) - RLgraph provides a unified interface to executing TensorFlow and PyTorch RL algorithms on different distributed platforms, including distributed TF, Ray, Horovod, and with multi-gpu support.
+- [RLgraph](https://github.com/rlgraph/rlgraph) - RLgraph provides a unified interface to executing and designing TensorFlow and PyTorch RL algorithms on different distributed platforms, including distributed TF, Ray, Horovod, and with multi-gpu support.
