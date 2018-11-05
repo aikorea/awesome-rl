@@ -78,8 +78,8 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [MIT] [6.S094: Deep Learning for Self-Driving Cars](http://selfdrivingcars.mit.edu/)
    - [Lecture 2: Deep Reinforcement Learning for Motion Planning](https://www.youtube.com/watch?v=QDzM8r3WgBw&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
  - [DLSS 2016] : [Deep learning summer school, Montreal 2016](https://www.youtube.com/playlist?list=PL5bqIc6XopCbb-FvnHmD1neVlQKwGzQyR)
-   - [Introduction to Reinforcement Learning Joelle Pineau] (https://www.youtube.com/watch?v=O_1Z63EDMvQ&list=PL5bqIc6XopCbb-FvnHmD1neVlQKwGzQyR&index=12&t=0s)
-   - [Deep Reinforcement Learning Pieter Abbeel] (https://www.youtube.com/watch?v=FD1Cwp91Nmk&list=PL5bqIc6XopCbb-FvnHmD1neVlQKwGzQyR&index=14&t=0s)
+   - [Introduction to Reinforcement Learning Joelle Pineau](https://www.youtube.com/watch?v=O_1Z63EDMvQ&list=PL5bqIc6XopCbb-FvnHmD1neVlQKwGzQyR)
+   - [Deep Reinforcement Learning Pieter Abbeel](https://www.youtube.com/watch?v=FD1Cwp91Nmk&list=PL5bqIc6XopCbb-FvnHmD1neVlQKwGzQyR)
  - [RLSS 2017] : [Reinforcement learning summer school, Montreal 2017](https://www.youtube.com/playlist?list=PL5bqIc6XopCa7AlzMb88pIpRFRbsT6Buo)
  - [Siraj Raval]: Introduction to AI for Video Games (Reinforcement Learning Video Series)
    - [Introduction to AI for video games] (https://youtu.be/i_McNBDP9Qs)
@@ -244,4 +244,4 @@ Computer Games
 - [SLM Lab](https://github.com/kengz/SLM-Lab) - A research framework for Deep Reinforcement Learning using Unity, OpenAI Gym, PyTorch, Tensorflow.
 - [Unity ML Agents](https://github.com/Unity-Technologies/ml-agents) - Create reinforcement learning environments using the Unity Editor
 - [Intel Coach](https://github.com/NervanaSystems/coach) - Coach is a python reinforcement learning research framework containing implementation of many state-of-the-art algorithms.
-- [Google Dopamine] (https://github.com/google/dopamine) - Dopamine is a research framework for fast prototyping of reinforcement learning algorithms.
+- [Google Dopamine](https://github.com/google/dopamine) - Dopamine is a research framework for fast prototyping of reinforcement learning algorithms.
