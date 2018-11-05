@@ -34,8 +34,8 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
     - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
     - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
-    - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
-    - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+    - [C/Lisp Code](http://incompleteideas.net/book/first/code/code.html)
+    - [Book](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
  - Simulation code for Reinforcement Learning Control Problems
     - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
     - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
@@ -77,6 +77,10 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [CMU] [10703: Deep Reinforcement Learning and Control, Spring 2017](https://katefvision.github.io/)
  - [MIT] [6.S094: Deep Learning for Self-Driving Cars](http://selfdrivingcars.mit.edu/)
    - [Lecture 2: Deep Reinforcement Learning for Motion Planning](https://www.youtube.com/watch?v=QDzM8r3WgBw&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
+ - [DLSS 2016] : [Deep learning summer school, Montreal 2016](https://www.youtube.com/playlist?list=PL5bqIc6XopCbb-FvnHmD1neVlQKwGzQyR)
+   - [Introduction to Reinforcement Learning Joelle Pineau] (https://www.youtube.com/watch?v=O_1Z63EDMvQ&list=PL5bqIc6XopCbb-FvnHmD1neVlQKwGzQyR&index=12&t=0s)
+   - [Deep Reinforcement Learning Pieter Abbeel] (https://www.youtube.com/watch?v=FD1Cwp91Nmk&list=PL5bqIc6XopCbb-FvnHmD1neVlQKwGzQyR&index=14&t=0s)
+ - [RLSS 2017] : [Reinforcement learning summer school, Montreal 2017](https://www.youtube.com/playlist?list=PL5bqIc6XopCa7AlzMb88pIpRFRbsT6Buo)
  - [Siraj Raval]: Introduction to AI for Video Games (Reinforcement Learning Video Series)
    - [Introduction to AI for video games] (https://youtu.be/i_McNBDP9Qs)
    - [Monte Carlo Prediction] (https://youtu.be/-YpalutQCKw)
@@ -210,7 +214,7 @@ Computer Games
   - [Simple Reinforcement Learning with Tensorflow, Parts 0-8](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0#.78km20i8r) by Arthur Juliani
   - [Practical_RL](https://github.com/yandexdataschool/Practical_RL) - github-based course in reinforcement learning in the wild (lectures, coding labs, projects)
   - [RLenv.directory: Explore and find new reinforcement learning environments.](https://rlenv.directory/)
-
+  - [Simple Reinforcement Learning with Tensorflow (Part 0)] (https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 
 
 ## Online Demos
@@ -240,3 +244,4 @@ Computer Games
 - [SLM Lab](https://github.com/kengz/SLM-Lab) - A research framework for Deep Reinforcement Learning using Unity, OpenAI Gym, PyTorch, Tensorflow.
 - [Unity ML Agents](https://github.com/Unity-Technologies/ml-agents) - Create reinforcement learning environments using the Unity Editor
 - [Intel Coach](https://github.com/NervanaSystems/coach) - Coach is a python reinforcement learning research framework containing implementation of many state-of-the-art algorithms.
+- [Google Dopamine] (https://github.com/google/dopamine) - Dopamine is a research framework for fast prototyping of reinforcement learning algorithms.
