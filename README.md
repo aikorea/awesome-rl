@@ -78,12 +78,12 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [MIT] [6.S094: Deep Learning for Self-Driving Cars](http://selfdrivingcars.mit.edu/)
    - [Lecture 2: Deep Reinforcement Learning for Motion Planning](https://www.youtube.com/watch?v=QDzM8r3WgBw&list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf)
  - [Siraj Raval]: Introduction to AI for Video Games (Reinforcement Learning Video Series)
-   - [Introduction to AI for video games] (https://youtu.be/i_McNBDP9Qs)
-   - [Monte Carlo Prediction] (https://youtu.be/-YpalutQCKw)
-   - [Q learning explained] (https://youtu.be/aCEvtRtNO-M)
-   - [Solving the basic game of Pong] (https://youtu.be/pN7ETkOizGM)
-   - [Actor Critic Algorithms] (https://youtu.be/w_3mmm0P0j8)
-   - [War Robots] (https://youtu.be/tm5kQmjfZN8)
+   - [Introduction to AI for video games](https://youtu.be/i_McNBDP9Qs)
+   - [Monte Carlo Prediction](https://youtu.be/-YpalutQCKw)
+   - [Q learning explained](https://youtu.be/aCEvtRtNO-M)
+   - [Solving the basic game of Pong](https://youtu.be/pN7ETkOizGM)
+   - [Actor Critic Algorithms](https://youtu.be/w_3mmm0P0j8)
+   - [War Robots](https://youtu.be/tm5kQmjfZN8)
     
 
 ### Books
