@@ -242,3 +242,5 @@ Computer Games
 - [Unity ML Agents](https://github.com/Unity-Technologies/ml-agents) - Create reinforcement learning environments using the Unity Editor
 - [Intel Coach](https://github.com/NervanaSystems/coach) - Coach is a python reinforcement learning research framework containing implementation of many state-of-the-art algorithms.
 - [Google Dopamine](https://github.com/google/dopamine) - Dopamine is a research framework for fast prototyping of reinforcement learning algorithms. 
+- [TextWorld](https://www.microsoft.com/en-us/research/project/textworld/) - A learning environment for training reinforcement learning agents, inspired by text-based games 
+- [Horizon](https://research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform/) - Facebook’s Open Source Applied Reinforcement Learning Platform
