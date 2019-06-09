@@ -84,6 +84,10 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Solving the basic game of Pong](https://youtu.be/pN7ETkOizGM)
    - [Actor Critic Algorithms](https://youtu.be/w_3mmm0P0j8)
    - [War Robots](https://youtu.be/tm5kQmjfZN8)
+ - [IIT Madras]: [Reinforcement Learning](https://www.youtube.com/playlist?list=PLuWx2S0SyaDctJtVKHhmjYACmHZ3nX9ew) by Prof. Balaraman Ravindran
+   - Covers topics like bandit algorithms, MDPs, Dynamic Programming, Monte carlo methods, Temporal difference learning, 
+    Eligibility traces, Function approximation, Policy gradient methods, Planning and Learning, Hierarchical RL and many other miscellaneous topics 
+  
     
 
 ### Books
