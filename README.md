@@ -60,6 +60,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [PyTorch Deep RL](https://github.com/ShangtongZhang/DeepRL) - Popular deep RL algorithm implementations with PyTorch
  - [ChainerRL](https://github.com/chainer/chainerrl) - Popular deep RL algorithm implementations with Chainer
  - [Black-DROPS](https://github.com/resibots/blackdrops) - Modular and generic code for the model-based policy search Black-DROPS algorithm (IROS 2017 paper) and easy integration with the [DART](http://dartsim.github.io/) simulator
+ - [Gold](https://github.com/aunum/gold) - A reinforcement learning library for Golang.
 
 ## Theory
 
