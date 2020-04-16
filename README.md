@@ -104,12 +104,12 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
  - Michael L. Littman, "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
  - Marc P. Deisenroth, Gerhard Neumann, Jan Peter, A Survey on Policy Search for Robotics, Foundations and Trends in Robotics, 2014. [[Book]](https://spiral.imperial.ac.uk:8443/bitstream/10044/1/12051/7/fnt_corrected_2014-8-22.pdf)
- - Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, Anil Anthony Bharath, A Brief Survey of Deep Rei nforcement Learning, IEEE Signal Processing Magazine, 2017. [[Paper]](https://arxiv.org/abs/1708.05866)
+ - Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, Anil Anthony Bharath, A Brief Survey of Deep Rei nforcement Learning, IEEE Signal Processing Magazine, 2017. [[DOI]](https://dx.doi.org/10.1109/MSP.2017.2743240) [[Paper]](https://arxiv.org/abs/1708.05866)
 
 ### Papers / Thesis
 Foundational Papers
- - Marvin Minsky, Steps toward Artificial Intelligence, Proceedings of the IRE, 1961. [[Paper]](http://staffweb.worc.ac.uk/DrC/Courses%202010-11/Comp%203104/Tutor%20Inputs/Session%209%20Prep/Reading%20material/Minsky60steps.pdf) (discusses issues in RL such as the "credit assignment problem")
- - Ian H. Witten, An Adaptive Optimal Controller for Discrete-Time Markov Environments, Information and Control, 1977. [[Paper]](http://www.cs.waikato.ac.nz/~ihw/papers/77-IHW-AdaptiveController.pdf) (earliest publication on temporal-difference (TD) learning rule)
+ - Marvin Minsky, Steps toward Artificial Intelligence, Proceedings of the IRE, 1961. [[DOI]](https://dx.doi.org/10.1109/JRPROC.1961.287775) [[Paper]](http://staffweb.worc.ac.uk/DrC/Courses%202010-11/Comp%203104/Tutor%20Inputs/Session%209%20Prep/Reading%20material/Minsky60steps.pdf) (discusses issues in RL such as the "credit assignment problem")
+ - Ian H. Witten, An Adaptive Optimal Controller for Discrete-Time Markov Environments, Information and Control, 1977. [[DOI]](https://doi.org/10.1016/S0019-9958(77)90354-0) [[Paper]](http://www.cs.waikato.ac.nz/~ihw/papers/77-IHW-AdaptiveController.pdf) (earliest publication on temporal-difference (TD) learning rule)
   
 Methods
  - Dynamic Programming (DP):
@@ -162,6 +162,7 @@ Computer Games
   - Human-level Control through Deep Reinforcement Learning (Mnih, Nature 2015) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
   - [Flappy Bird Reinforcement Learning](https://github.com/SarvagyaVaish/FlappyBirdRL) [[Video]](https://www.youtube.com/watch?v=xM62SpKAZHU)
   - MarI/O - learning to play Mario with evolutionary reinforcement learning using artificial neural networks (Stanley, Evolutionary Computation 2002) [[Paper]](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf) [[Video]](https://www.youtube.com/watch?v=qv6UVOQ0F44)
+  - Grandmaster level in StarCraft II using multi-agent reinforcement learning [[DOI]](https://doi.org/10.1038/s41586-019-1724-z) [[Paper]](https://www.nature.com/articles/s41586-019-1724-z.epdf) [[Video]](https://deepmind.com/research/open-source/alphastar-resources)
 
 ### Robotics
   - Policy Gradient Reinforcement Learning for Fast Quadrupedal Locomotion (Kohl, ICRA 2004) [[Paper]](http://www.cs.utexas.edu/~pstone/Papers/bib2html-links/icra04.pdf)
@@ -182,6 +183,7 @@ Computer Games
 ### Operations Research
   - Scaling Average-reward Reinforcement Learning for Product Delivery (Proper, AAAI 2004) [[Paper]](http://web.engr.oregonstate.edu/~proper/AAAI04SProper.pdf)
   - Cross Channel Optimized Marketing by Reinforcement Learning (Abe, KDD 2004) [[Paper]](http://www.research.ibm.com/people/n/nabe/kdd04AVAS.pdf)
+  - Bernd Waschneck, Andre Reichstaller, Lenz Belzner et al., Deep reinforcement learning for semiconductor production scheduling (ASMC 2018) [[DOI]](https://dx.doi.org/10.1109/ASMC.2018.8373191) [[Paper]](https://www.researchgate.net/profile/Lenz_Belzner/publication/325713164_Deep_reinforcement_learning_for_semiconductor_production_scheduling/links/5be537caa6fdcc3a8dc89fb3/Deep-reinforcement-learning-for-semiconductor-production-scheduling.pdf)
 
 ### Human Computer Interaction
   - Optimizing Dialogue Management with Reinforcement Learning: Experiments with the NJFun System (Singh, JAIR 2002) [[Paper]](http://web.eecs.umich.edu/~baveja/Papers/RLDSjair.pdf)
