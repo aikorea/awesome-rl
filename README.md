@@ -67,13 +67,14 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach (3rd Edition, 2010) [[Book]](https://faculty.psau.edu.sa/filedownload/doc-7-pdf-a154ffbcec538a4161a406abf62f5b76-original.pdf)
 
 ### Surveys
- - Leslie Pack Kaelbling, Michael L. Littman, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. [[Paper]](https://www.jair.org/media/301/live-301-1562-jair.pdf)
- - S. S. Keerthi and B. Ravindran, A Tutorial Survey of Reinforcement Learning, Sadhana, 1994. [[Paper]](http://www.cse.iitm.ac.in/~ravi/papers/keerthi.rl-survey.pdf)
- - Matthew E. Taylor, Peter Stone, Transfer Learning for Reinforcement Learning Domains: A Survey, JMLR, 2009. [[Paper]](http://machinelearning.wustl.edu/mlpapers/paper_files/jmlr10_taylor09a.pdf)
- - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
- - Michael L. Littman, "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
- - Marc P. Deisenroth, Gerhard Neumann, Jan Peter, A Survey on Policy Search for Robotics, Foundations and Trends in Robotics, 2014. [[Book]](https://spiral.imperial.ac.uk:8443/bitstream/10044/1/12051/7/fnt_corrected_2014-8-22.pdf)
- - Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, Anil Anthony Bharath, A Brief Survey of Deep Rei nforcement Learning, IEEE Signal Processing Magazine, 2017. [[DOI]](https://dx.doi.org/10.1109/MSP.2017.2743240) [[Paper]](https://arxiv.org/abs/1708.05866)
+ - Leslie Pack Kaelbling, Michael L. Littman, Andrew W. Moore, Reinforcement Learning: A Survey (JAIR 1996) [[Paper]](https://www.jair.org/index.php/jair/article/download/10166/24110/)
+ - S. S. Keerthi and B. Ravindran, A Tutorial Survey of Reinforcement Learning (Sadhana 1994) [[Paper]](http://www.cse.iitm.ac.in/~ravi/papers/keerthi.rl-survey.pdf)
+ - Matthew E. Taylor, Peter Stone, Transfer Learning for Reinforcement Learning Domains: A Survey (JMLR 2009) [[Paper]](http://www.jmlr.org/papers/volume10/taylor09a/taylor09a.pdf)
+ - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey (IJRR 2013) [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
+ - Michael L. Littman, Reinforcement learning improves behaviour from evaluative feedback (Nature 2015) [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
+ - Marc P. Deisenroth, Gerhard Neumann, Jan Peter, A Survey on Policy Search for Robotics, Foundations and Trends in Robotics (2014) [[Book]](https://spiral.imperial.ac.uk:8443/bitstream/10044/1/12051/7/fnt_corrected_2014-8-22.pdf)
+ - Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, Anil Anthony Bharath, A Brief Survey of Deep Reinforcement Learning (IEEE Signal Processing Magazine 2017) [[DOI]](https://dx.doi.org/10.1109/MSP.2017.2743240) [[Paper]](https://arxiv.org/abs/1708.05866)
+ - Benjamin Recht, A Tour of Reinforcement Learning: The View from Continuous Control (Annu. Rev. Control Robot. Auton. Syst. 2019) [[DOI]](https://dx.doi.org/10.1146/annurev-control-053018-023825)
 
 ### Papers / Thesis
 Foundational Papers
@@ -143,6 +144,8 @@ Computer Games
   - Mark Cutler and Jonathan P. How, Efficient Reinforcement Learning for Robots using Informative Simulated Priors (ICRA 2015) [[Paper]](http://markjcutler.com/papers/Cutler15_ICRA.pdf) [[Video]](https://www.youtube.com/watch?v=kKClFx6l1HY)
   - Antoine Cully, Jeff Clune, Danesh Tarapore and Jean-Baptiste Mouret, Robots that can adapt like animals (Nature 2015) [[ArXiv](https://arxiv.org/abs/1407.3501)] [[Video](https://www.youtube.com/watch?v=T-c17RKh3uE)] [[Code](https://github.com/resibots/cully_2015_nature)]
   - Konstantinos Chatzilygeroudis, Roberto Rama, Rituraj Kaushik et al, Black-Box Data-efficient Policy Search for Robotics (IROS 2017) [[ArXiv](https://arxiv.org/abs/1703.07261)] [[Video](https://www.youtube.com/watch?v=kTEyYiIFGPM)] [[Code](https://github.com/resibots/blackdrops)]
+  - P. Travis Jardine, Michael Kogan, Sidney N. Givigi and Shahram Yousefi, Adaptive predictive control of a differential drive robot tuned with reinforcement learning (Int J Adapt Control Signal Process 2019) [[DOI]](https://dx.doi.org/10.1002/acs.2882)
+
 
 
 ### Control
@@ -160,11 +163,9 @@ Computer Games
 
 
 ## Codes
- - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
-    - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
-    - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
-    - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
-    - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+ - Codes for examples and exercises in Richard Sutton and Andrew Barto's [Book](#books) Reinforcement Learning: An Introduction
+    - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction) (2nd Edition)
+    - [MATLAB Code](https://waxworksmath.com/Authors/N_Z/Sutton/RLAI_1st_Edition/sutton.html) (1st Edition)
  - Simulation code for Reinforcement Learning Control Problems
     - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
     - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
