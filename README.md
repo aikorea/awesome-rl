@@ -88,12 +88,14 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ### Books
  - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998) [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
- - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (2nd Edition, in progress, 2018) [[Book]](http://incompleteideas.net/book/bookdraft2018jan1.pdf) [[Code]](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
- - Csaba Szepesvari, Algorithms for Reinforcement Learning [[Book]](http://www.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
- - David Poole and Alan Mackworth, Artificial Intelligence: Foundations of Computational Agents [[Book Chapter]](http://artint.info/html/ArtInt_262.html)
- - Dimitri P. Bertsekas and John N. Tsitsiklis, Neuro-Dynamic Programming [[Book (Amazon)]](http://www.amazon.com/Neuro-Dynamic-Programming-Optimization-Neural-Computation/dp/1886529108/ref=sr_1_3?s=books&ie=UTF8&qid=1442461075&sr=1-3&refinements=p_27%3AJohn+N.+Tsitsiklis+Dimitri+P.+Bertsekas) [[Summary]](http://www.mit.edu/~dimitrib/NDP_Encycl.pdf)
- - Mykel J. Kochenderfer, Decision Making Under Uncertainty: Theory and Application [[Book (Amazon)]](http://www.amazon.com/Decision-Making-Under-Uncertainty-Application/dp/0262029251/ref=sr_1_1?ie=UTF8&qid=1441126550&sr=8-1&keywords=kochenderfer&pebp=1441126551594&perid=1Y6RG2EGRD26659CJHH9)
- - Deep Reinforcement Learning in Action [[Book(Manning)]](https://www.manning.com/books/deep-reinforcement-learning-in-action)
+ - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (2nd Edition, 2018) [[Book]](http://incompleteideas.net/book/RLbook2018.pdf) [[Code]](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+ - Csaba Szepesvari, Algorithms for Reinforcement Learning (2009, updated March 2019) [[Book]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+ - David Poole and Alan Mackworth, Learning to Act in Artificial Intelligence: Foundations of Computational Agents (2017) [[Book Chapter]](https://artint.info/2e/html/ArtInt2e.Ch12.html)
+ - Dimitri P. Bertsekas and John N. Tsitsiklis, Neuro-Dynamic Programming (1996) [[Book (Amazon)]](http://www.amazon.com/Neuro-Dynamic-Programming-Optimization-Neural-Computation/dp/1886529108/ref=sr_1_3?s=books&ie=UTF8&qid=1442461075&sr=1-3&refinements=p_27%3AJohn+N.+Tsitsiklis+Dimitri+P.+Bertsekas) [[Summary]](http://www.mit.edu/~dimitrib/NDP_Encycl.pdf)
+ - Mykel J. Kochenderfer, Decision Making Under Uncertainty: Theory and Application (2015) [[Book (Amazon)]](http://www.amazon.com/Decision-Making-Under-Uncertainty-Application/dp/0262029251/ref=sr_1_1?ie=UTF8&qid=1441126550&sr=8-1&keywords=kochenderfer&pebp=1441126551594&perid=1Y6RG2EGRD26659CJHH9)
+ - Alexander Zai and Brandon Brown, Deep Reinforcement Learning in Action (2020) [[Book(Manning)]](https://www.manning.com/books/deep-reinforcement-learning-in-action)
+ - Marco Wiering and Martijn van Otterlo, Reinforcement Learning (2012) [[Book]](dx.doi.org/10.1007/978-3-642-27645-3)
+ - Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach (3rd Edition, 2010) [[Book]](https://faculty.psau.edu.sa/filedownload/doc-7-pdf-a154ffbcec538a4161a406abf62f5b76-original.pdf)
 
 ### Surveys
  - Leslie Pack Kaelbling, Michael L. Littman, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. [[Paper]](https://www.jair.org/media/301/live-301-1562-jair.pdf)
