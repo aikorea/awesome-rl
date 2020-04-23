@@ -14,7 +14,6 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ## Table of Contents
 
- - [Codes](#codes)
  - [Theory](#theory)
    - [Lectures](#lectures)
    - [Books](#books)
@@ -26,40 +25,10 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Control](#control)
    - [Operations Research](#operations-research)
    - [Human Computer Interaction](#human-computer-interaction)
+ - [Codes](#codes)
  - [Tutorials / Websites](#tutorials--websites)
  - [Online Demos](#online-demos)
  - [Open Source Reinforcement Learning Platforms](#open-source-reinforcement-learning-platforms)
-
-## Codes
- - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
-    - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
-    - [MATLAB Code](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
-    - [C/Lisp Code](https://webdocs.cs.ualberta.ca/~sutton/book/code/code.html)
-    - [Book](http://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
- - Simulation code for Reinforcement Learning Control Problems
-    - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
-    - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
- - [MATLAB Environment and GUI for Reinforcement Learning](http://www.cs.colostate.edu/~anderson/res/rl/matlabpaper/rl.html)
- - [Reinforcement Learning Repository - University of Massachusetts, Amherst](http://www-anw.cs.umass.edu/rlr/)
- - [Brown-UMBC Reinforcement Learning and Planning Library (Java)](http://burlap.cs.brown.edu/)
- - [Reinforcement Learning in R (MDP, Value Iteration)](http://www.moneyscience.com/pg/blog/StatAlgo/read/635759/reinforcement-learning-in-r-markov-decision-process-mdp-and-value-iteration)
- - [Reinforcement Learning Environment in Python and MATLAB](https://jamh-web.appspot.com/download.htm)
- - [RL-Glue](http://glue.rl-community.org/wiki/Main_Page) (standard interface for RL) and [RL-Glue Library](http://library.rl-community.org/wiki/Main_Page)
- - [PyBrain Library](http://www.pybrain.org/) - Python-Based Reinforcement learning, Artificial intelligence, and Neural network
- - [RLPy Framework](http://rlpy.readthedocs.org/en/latest/) -  Value-Function-Based Reinforcement Learning Framework for Education and Research
- - [Maja](http://mmlf.sourceforge.net/) - Machine learning framework for problems in Reinforcement Learning in python
- - [TeachingBox](http://servicerobotik.hs-weingarten.de/en/teachingbox.php) - Java based Reinforcement Learning framework
- - [Policy Gradient Reinforcement Learning Toolbox for MATLAB](http://www.ias.informatik.tu-darmstadt.de/Research/PolicyGradientToolbox)
- - [PIQLE](http://sourceforge.net/projects/piqle/) - Platform Implementing Q-Learning and other RL algorithms
- - [BeliefBox](https://code.google.com/p/beliefbox/) - Bayesian reinforcement learning library and toolkit
- - [Deep Q-Learning with TensorFlow](https://github.com/nivwusquorum/tensorflow-deepq) - A deep Q learning demonstration using Google Tensorflow
- - [Atari](https://github.com/Kaixhin/Atari) - Deep Q-networks and asynchronous agents in Torch
- - [AgentNet](https://github.com/yandexdataschool/AgentNet) - A python library for deep reinforcement learning and custom recurrent networks using Theano+Lasagne.
- - [Reinforcement Learning Examples by RLCode](https://github.com/rlcode/reinforcement-learning) - A Collection of minimal and clean reinforcement learning examples
- - [OpenAI Baselines](https://github.com/openai/baselines) - Well tested implementations ([and results](https://github.com/openai/baselines-results)) of reinforcement learning algorithms from OpenAI 
- - [PyTorch Deep RL](https://github.com/ShangtongZhang/DeepRL) - Popular deep RL algorithm implementations with PyTorch
- - [ChainerRL](https://github.com/chainer/chainerrl) - Popular deep RL algorithm implementations with Chainer
- - [Black-DROPS](https://github.com/resibots/blackdrops) - Modular and generic code for the model-based policy search Black-DROPS algorithm (IROS 2017 paper) and easy integration with the [DART](http://dartsim.github.io/) simulator
 
 ## Theory
 
@@ -88,26 +57,29 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ### Books
  - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998) [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
- - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (2nd Edition, in progress, 2018) [[Book]](http://incompleteideas.net/book/bookdraft2018jan1.pdf) [[Code]](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
- - Csaba Szepesvari, Algorithms for Reinforcement Learning [[Book]](http://www.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
- - David Poole and Alan Mackworth, Artificial Intelligence: Foundations of Computational Agents [[Book Chapter]](http://artint.info/html/ArtInt_262.html)
- - Dimitri P. Bertsekas and John N. Tsitsiklis, Neuro-Dynamic Programming [[Book (Amazon)]](http://www.amazon.com/Neuro-Dynamic-Programming-Optimization-Neural-Computation/dp/1886529108/ref=sr_1_3?s=books&ie=UTF8&qid=1442461075&sr=1-3&refinements=p_27%3AJohn+N.+Tsitsiklis+Dimitri+P.+Bertsekas) [[Summary]](http://www.mit.edu/~dimitrib/NDP_Encycl.pdf)
- - Mykel J. Kochenderfer, Decision Making Under Uncertainty: Theory and Application [[Book (Amazon)]](http://www.amazon.com/Decision-Making-Under-Uncertainty-Application/dp/0262029251/ref=sr_1_1?ie=UTF8&qid=1441126550&sr=8-1&keywords=kochenderfer&pebp=1441126551594&perid=1Y6RG2EGRD26659CJHH9)
- - Deep Reinforcement Learning in Action [[Book(Manning)]](https://www.manning.com/books/deep-reinforcement-learning-in-action)
+ - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (2nd Edition, 2018) [[Book]](http://incompleteideas.net/book/RLbook2018.pdf) [[Code]](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+ - Csaba Szepesvari, Algorithms for Reinforcement Learning (2009, updated March 2019) [[Book]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+ - David Poole and Alan Mackworth, Learning to Act in Artificial Intelligence: Foundations of Computational Agents (2017) [[Book Chapter]](https://artint.info/2e/html/ArtInt2e.Ch12.html)
+ - Dimitri P. Bertsekas and John N. Tsitsiklis, Neuro-Dynamic Programming (1996) [[Book (Amazon)]](http://www.amazon.com/Neuro-Dynamic-Programming-Optimization-Neural-Computation/dp/1886529108/ref=sr_1_3?s=books&ie=UTF8&qid=1442461075&sr=1-3&refinements=p_27%3AJohn+N.+Tsitsiklis+Dimitri+P.+Bertsekas) [[Summary]](http://www.mit.edu/~dimitrib/NDP_Encycl.pdf)
+ - Mykel J. Kochenderfer, Decision Making Under Uncertainty: Theory and Application (2015) [[Book (Amazon)]](http://www.amazon.com/Decision-Making-Under-Uncertainty-Application/dp/0262029251/ref=sr_1_1?ie=UTF8&qid=1441126550&sr=8-1&keywords=kochenderfer&pebp=1441126551594&perid=1Y6RG2EGRD26659CJHH9)
+ - Alexander Zai and Brandon Brown, Deep Reinforcement Learning in Action (2020) [[Book(Manning)]](https://www.manning.com/books/deep-reinforcement-learning-in-action)
+ - Marco Wiering and Martijn van Otterlo, Reinforcement Learning (2012) [[Book]](dx.doi.org/10.1007/978-3-642-27645-3)
+ - Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach (3rd Edition, 2010) [[Book]](https://faculty.psau.edu.sa/filedownload/doc-7-pdf-a154ffbcec538a4161a406abf62f5b76-original.pdf)
 
 ### Surveys
- - Leslie Pack Kaelbling, Michael L. Littman, Andrew W. Moore, Reinforcement Learning: A Survey, JAIR, 1996. [[Paper]](https://www.jair.org/media/301/live-301-1562-jair.pdf)
- - S. S. Keerthi and B. Ravindran, A Tutorial Survey of Reinforcement Learning, Sadhana, 1994. [[Paper]](http://www.cse.iitm.ac.in/~ravi/papers/keerthi.rl-survey.pdf)
- - Matthew E. Taylor, Peter Stone, Transfer Learning for Reinforcement Learning Domains: A Survey, JMLR, 2009. [[Paper]](http://machinelearning.wustl.edu/mlpapers/paper_files/jmlr10_taylor09a.pdf)
- - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey, IJRR, 2013. [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
- - Michael L. Littman, "Reinforcement learning improves behaviour from evaluative feedback." Nature 521.7553 (2015): 445-451. [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
- - Marc P. Deisenroth, Gerhard Neumann, Jan Peter, A Survey on Policy Search for Robotics, Foundations and Trends in Robotics, 2014. [[Book]](https://spiral.imperial.ac.uk:8443/bitstream/10044/1/12051/7/fnt_corrected_2014-8-22.pdf)
- - Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, Anil Anthony Bharath, A Brief Survey of Deep Rei nforcement Learning, IEEE Signal Processing Magazine, 2017. [[Paper]](https://arxiv.org/abs/1708.05866)
+ - Leslie Pack Kaelbling, Michael L. Littman, Andrew W. Moore, Reinforcement Learning: A Survey (JAIR 1996) [[Paper]](https://www.jair.org/index.php/jair/article/download/10166/24110/)
+ - S. S. Keerthi and B. Ravindran, A Tutorial Survey of Reinforcement Learning (Sadhana 1994) [[Paper]](http://www.cse.iitm.ac.in/~ravi/papers/keerthi.rl-survey.pdf)
+ - Matthew E. Taylor, Peter Stone, Transfer Learning for Reinforcement Learning Domains: A Survey (JMLR 2009) [[Paper]](http://www.jmlr.org/papers/volume10/taylor09a/taylor09a.pdf)
+ - Jens Kober, J. Andrew Bagnell, Jan Peters, Reinforcement Learning in Robotics, A Survey (IJRR 2013) [[Paper]](http://www.ias.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
+ - Michael L. Littman, Reinforcement learning improves behaviour from evaluative feedback (Nature 2015) [[Paper]](http://www.nature.com/nature/journal/v521/n7553/full/nature14540.html)
+ - Marc P. Deisenroth, Gerhard Neumann, Jan Peter, A Survey on Policy Search for Robotics, Foundations and Trends in Robotics (2014) [[Book]](https://spiral.imperial.ac.uk:8443/bitstream/10044/1/12051/7/fnt_corrected_2014-8-22.pdf)
+ - Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, Anil Anthony Bharath, A Brief Survey of Deep Reinforcement Learning (IEEE Signal Processing Magazine 2017) [[DOI]](https://dx.doi.org/10.1109/MSP.2017.2743240) [[Paper]](https://arxiv.org/abs/1708.05866)
+ - Benjamin Recht, A Tour of Reinforcement Learning: The View from Continuous Control (Annu. Rev. Control Robot. Auton. Syst. 2019) [[DOI]](https://dx.doi.org/10.1146/annurev-control-053018-023825)
 
 ### Papers / Thesis
 Foundational Papers
- - Marvin Minsky, Steps toward Artificial Intelligence, Proceedings of the IRE, 1961. [[Paper]](http://staffweb.worc.ac.uk/DrC/Courses%202010-11/Comp%203104/Tutor%20Inputs/Session%209%20Prep/Reading%20material/Minsky60steps.pdf) (discusses issues in RL such as the "credit assignment problem")
- - Ian H. Witten, An Adaptive Optimal Controller for Discrete-Time Markov Environments, Information and Control, 1977. [[Paper]](http://www.cs.waikato.ac.nz/~ihw/papers/77-IHW-AdaptiveController.pdf) (earliest publication on temporal-difference (TD) learning rule)
+ - Marvin Minsky, Steps toward Artificial Intelligence, Proceedings of the IRE, 1961. [[DOI]](https://dx.doi.org/10.1109/JRPROC.1961.287775) [[Paper]](http://staffweb.worc.ac.uk/DrC/Courses%202010-11/Comp%203104/Tutor%20Inputs/Session%209%20Prep/Reading%20material/Minsky60steps.pdf) (discusses issues in RL such as the "credit assignment problem")
+ - Ian H. Witten, An Adaptive Optimal Controller for Discrete-Time Markov Environments, Information and Control, 1977. [[DOI]](https://doi.org/10.1016/S0019-9958(77)90354-0) [[Paper]](http://www.cs.waikato.ac.nz/~ihw/papers/77-IHW-AdaptiveController.pdf) (earliest publication on temporal-difference (TD) learning rule)
   
 Methods
  - Dynamic Programming (DP):
@@ -152,41 +124,76 @@ Methods
 ## Applications
 ### Game Playing
 Traditional Games
-  - Backgammon - "TD-Gammon" game play using TD(λ) (Tesauro, ACM 1995) [[Paper]](http://www.bkgm.com/articles/tesauro/tdl.html)
-  - Chess - "KnightCap" program using TD(λ) (Baxter, arXiv 1999) [[arXiv]](http://arxiv.org/pdf/cs/9901002v1.pdf)
-  - Chess - Giraffe: Using deep reinforcement learning to play chess (Lai, arXiv 2015) [[arXiv]](http://arxiv.org/pdf/1509.01549v2.pdf)
+  - Backgammon - Gerald Tesauro, "TD-Gammon" game play using TD(λ) (ACM 1995) [[Paper]](http://www.bkgm.com/articles/tesauro/tdl.html)
+  - Chess - Jonathan Baxter, Andrew Tridgell and Lex Weaver, "KnightCap" program using TD(λ) (1999) [[arXiv]](http://arxiv.org/pdf/cs/9901002v1.pdf)
+  - Chess - Matthew Lai, Giraffe: Using deep reinforcement learning to play chess (2015) [[arXiv]](http://arxiv.org/pdf/1509.01549v2.pdf)
 
 Computer Games
-  - Human-level Control through Deep Reinforcement Learning (Mnih, Nature 2015) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
-  - [Flappy Bird Reinforcement Learning](https://github.com/SarvagyaVaish/FlappyBirdRL) [[Video]](https://www.youtube.com/watch?v=xM62SpKAZHU)
-  - MarI/O - learning to play Mario with evolutionary reinforcement learning using artificial neural networks (Stanley, Evolutionary Computation 2002) [[Paper]](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf) [[Video]](https://www.youtube.com/watch?v=qv6UVOQ0F44)
+  - Atari 2600 Games - Volodymyr Mnih, Koray Kavukcuoglu, David Silver et al., Human-level Control through Deep Reinforcement Learning (Nature 2015) [[DOI]](https://dx.doi.org/doi:10.1038/nature14236) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
+  - Flappy Bird - Sarvagya Vaish, [Flappy Bird Reinforcement Learning](https://github.com/SarvagyaVaish/FlappyBirdRL) [[Video]](https://www.youtube.com/watch?v=xM62SpKAZHU)
+  - Mario - Kenneth O. Stanley and Risto Miikkulainen, MarI/O - learning to play Mario with evolutionary reinforcement learning using artificial neural networks (Evolutionary Computation 2002) [[Paper]](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf) [[Video]](https://www.youtube.com/watch?v=qv6UVOQ0F44)
+  - StarCraft II - Oriol Vinyals, Igor Babuschkin, Wojciech M. Czarnecki et al., Grandmaster level in StarCraft II using multi-agent reinforcement learning (Nature 2019) [[DOI]](https://doi.org/10.1038/s41586-019-1724-z) [[Paper]](https://www.nature.com/articles/s41586-019-1724-z.epdf) [[Video]](https://deepmind.com/research/open-source/alphastar-resources)
 
 ### Robotics
-  - Policy Gradient Reinforcement Learning for Fast Quadrupedal Locomotion (Kohl, ICRA 2004) [[Paper]](http://www.cs.utexas.edu/~pstone/Papers/bib2html-links/icra04.pdf)
-  - Robot Motor SKill Coordination with EM-based Reinforcement Learning (Kormushev, IROS 2010) [[Paper]](http://kormushev.com/papers/Kormushev-IROS2010.pdf) [[Video]](https://www.youtube.com/watch?v=W_gxLKSsSIE)
-  - Generalized Model Learning for Reinforcement Learning on a Humanoid Robot (Hester, ICRA 2010) [[Paper]](https://ccc.inaoep.mx/~mdprl/documentos/Hester_2010.pdf) [[Video]](https://www.youtube.com/watch?v=mRpX9DFCdwI&list=PL5nBAYUyJTrM48dViibyi68urttMlUv7e&index=12)
-  - Autonomous Skill Acquisition on a Mobile Manipulator (Konidaris, AAAI 2011) [[Paper]](http://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf) [[Video]](https://www.youtube.com/watch?v=yUICAkSQTZY)
-  - PILCO: A Model-Based and Data-Efficient Approach to Policy Search (Deisenroth, ICML 2011) [[Paper]](http://mlg.eng.cam.ac.uk/pub/pdf/DeiRas11.pdf)
-  - Incremental Semantically Grounded Learning from Demonstration (Niekum, RSS 2013) [[Paper]](http://people.cs.umass.edu/~sniekum/pubs/NiekumRSS2013.pdf)
-  - Efficient Reinforcement Learning for Robots using Informative Simulated Priors (Cutler, ICRA 2015) [[Paper]](http://markjcutler.com/papers/Cutler15_ICRA.pdf) [[Video]](https://www.youtube.com/watch?v=kKClFx6l1HY)
-  - Robots that can adapt like animals (Cully, Nature 2015) [[Paper](https://arxiv.org/abs/1407.3501)] [[Video](https://www.youtube.com/watch?v=T-c17RKh3uE)] [[Code](https://github.com/resibots/cully_2015_nature)]
-  - Black-Box Data-efficient Policy Search for Robotics (Chatzilygeroudis, IROS 2017) [[Paper](https://arxiv.org/abs/1703.07261)] [[Video](https://www.youtube.com/watch?v=kTEyYiIFGPM)] [[Code](https://github.com/resibots/blackdrops)]
+  - Nate Kohl and Peter Stone, Policy Gradient Reinforcement Learning for Fast Quadrupedal Locomotion (ICRA 2004) [[Paper]](http://www.cs.utexas.edu/~pstone/Papers/bib2html-links/icra04.pdf)
+  - Petar Kormushev, Sylvain Calinon and Darwin G. Caldwel, Robot Motor SKill Coordination with EM-based Reinforcement Learning (IROS 2010) [[Paper]](http://kormushev.com/papers/Kormushev-IROS2010.pdf) [[Video]](https://www.youtube.com/watch?v=W_gxLKSsSIE)
+  - Todd Hester, Michael Quinlan, and Peter Stone, Generalized Model Learning for Reinforcement Learning on a Humanoid Robot (ICRA 2010) [[Paper]](https://ccc.inaoep.mx/~mdprl/documentos/Hester_2010.pdf) [[Video]](https://www.youtube.com/watch?v=mRpX9DFCdwI&list=PL5nBAYUyJTrM48dViibyi68urttMlUv7e&index=12)
+  - George Konidaris, Scott Kuindersma, Roderic Grupen and Andrew Barto, Autonomous Skill Acquisition on a Mobile Manipulator (AAAI 2011) [[Paper]](http://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf) [[Video]](https://www.youtube.com/watch?v=yUICAkSQTZY)
+  - Marc Peter Deisenroth and Carl Edward Rasmussen,PILCO: A Model-Based and Data-Efficient Approach to Policy Search (ICML 2011) [[Paper]](http://mlg.eng.cam.ac.uk/pub/pdf/DeiRas11.pdf)
+  - Scott Niekum, Sachin Chitta, Bhaskara Marthi, et al., Incremental Semantically Grounded Learning from Demonstration (RSS 2013) [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.87&rep=rep1&type=pdf)
+  - Mark Cutler and Jonathan P. How, Efficient Reinforcement Learning for Robots using Informative Simulated Priors (ICRA 2015) [[Paper]](http://markjcutler.com/papers/Cutler15_ICRA.pdf) [[Video]](https://www.youtube.com/watch?v=kKClFx6l1HY)
+  - Antoine Cully, Jeff Clune, Danesh Tarapore and Jean-Baptiste Mouret, Robots that can adapt like animals (Nature 2015) [[ArXiv](https://arxiv.org/abs/1407.3501)] [[Video](https://www.youtube.com/watch?v=T-c17RKh3uE)] [[Code](https://github.com/resibots/cully_2015_nature)]
+  - Konstantinos Chatzilygeroudis, Roberto Rama, Rituraj Kaushik et al, Black-Box Data-efficient Policy Search for Robotics (IROS 2017) [[ArXiv](https://arxiv.org/abs/1703.07261)] [[Video](https://www.youtube.com/watch?v=kTEyYiIFGPM)] [[Code](https://github.com/resibots/blackdrops)]
+  - P. Travis Jardine, Michael Kogan, Sidney N. Givigi and Shahram Yousefi, Adaptive predictive control of a differential drive robot tuned with reinforcement learning (Int J Adapt Control Signal Process 2019) [[DOI]](https://dx.doi.org/10.1002/acs.2882)
+
 
 
 ### Control
-  - An Application of Reinforcement Learning to Aerobatic Helicopter Flight (Abbeel, NIPS 2006) [[Paper]](http://heli.stanford.edu/papers/nips06-aerobatichelicopter.pdf) [[Video]](https://www.youtube.com/watch?v=VCdxqn0fcnE)
-  - Autonomous helicopter control using Reinforcement Learning Policy Search Methods (Bagnell, ICRA 2001) [[Paper]](http://repository.cmu.edu/cgi/viewcontent.cgi?article=1082&context=robotics)
+  - Pieter Abbeel, Adam Coates, et al., An Application of Reinforcement Learning to Aerobatic Helicopter Flight (NIPS 2006) [[Paper]](http://heli.stanford.edu/papers/nips06-aerobatichelicopter.pdf) [[Video]](https://www.youtube.com/watch?v=VCdxqn0fcnE)
+  - J. Andrew Bagnell and Jeff G. Schneider, Autonomous helicopter control using Reinforcement Learning Policy Search Methods (ICRA 2001) [[Paper]](https://kilthub.cmu.edu/articles/Autonomous_Helicopter_Control_Using_Reinforcement_Learning_Policy_Search_Methods/6552119/files/12033380.pdf)
 
 ### Operations Research
-  - Scaling Average-reward Reinforcement Learning for Product Delivery (Proper, AAAI 2004) [[Paper]](http://web.engr.oregonstate.edu/~proper/AAAI04SProper.pdf)
-  - Cross Channel Optimized Marketing by Reinforcement Learning (Abe, KDD 2004) [[Paper]](http://www.research.ibm.com/people/n/nabe/kdd04AVAS.pdf)
+  - Scott Proper and Prasad Tadepalli, Scaling Average-reward Reinforcement Learning for Product Delivery (AAAI 2004) [[Paper]](https://s3.amazonaws.com/academia.edu.documents/44453946/Scaling_Average-reward_Reinforcement_Lea20160405-20758-1wxkm8y.pdf)
+  - Naoki Abe, Naval Verma et al., Cross Channel Optimized Marketing by Reinforcement Learning (KDD 2004) [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.375.151&rep=rep1&type=pdf)
+  - Bernd Waschneck, Andre Reichstaller, Lenz Belzner et al., Deep reinforcement learning for semiconductor production scheduling (ASMC 2018) [[DOI]](https://dx.doi.org/10.1109/ASMC.2018.8373191) [[Paper]](https://www.researchgate.net/profile/Lenz_Belzner/publication/325713164_Deep_reinforcement_learning_for_semiconductor_production_scheduling/links/5be537caa6fdcc3a8dc89fb3/Deep-reinforcement-learning-for-semiconductor-production-scheduling.pdf)
 
 ### Human Computer Interaction
-  - Optimizing Dialogue Management with Reinforcement Learning: Experiments with the NJFun System (Singh, JAIR 2002) [[Paper]](http://web.eecs.umich.edu/~baveja/Papers/RLDSjair.pdf)
+  - Satinder Singh, Diane Litman et al., Optimizing Dialogue Management with Reinforcement Learning: Experiments with the NJFun System (JAIR 2002) [[Paper]](http://web.eecs.umich.edu/~baveja/Papers/RLDSjair.pdf)
 
 
 
-## Tutorials / Websites
+## Codes
+ - Codes for examples and exercises in Richard Sutton and Andrew Barto's [Book](#books) Reinforcement Learning: An Introduction
+    - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction) (2nd Edition)
+    - [MATLAB Code](https://waxworksmath.com/Authors/N_Z/Sutton/RLAI_1st_Edition/sutton.html) (1st Edition)
+ - Simulation code for Reinforcement Learning Control Problems
+    - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
+    - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
+ - [MATLAB Environment and GUI for Reinforcement Learning](http://www.cs.colostate.edu/~anderson/res/rl/matlabpaper/rl.html)
+ - [Reinforcement Learning Repository - University of Massachusetts, Amherst](http://www-anw.cs.umass.edu/rlr/)
+ - [Brown-UMBC Reinforcement Learning and Planning Library (Java)](http://burlap.cs.brown.edu/)
+ - [Reinforcement Learning in R (MDP, Value Iteration)](http://www.moneyscience.com/pg/blog/StatAlgo/read/635759/reinforcement-learning-in-r-markov-decision-process-mdp-and-value-iteration)
+ - [Reinforcement Learning Environment in Python and MATLAB](https://jamh-web.appspot.com/download.htm)
+ - [RL-Glue](http://glue.rl-community.org/wiki/Main_Page) (standard interface for RL) and [RL-Glue Library](http://library.rl-community.org/wiki/Main_Page)
+ - [PyBrain Library](http://www.pybrain.org/) - Python-Based Reinforcement learning, Artificial intelligence, and Neural network
+ - [RLPy Framework](http://rlpy.readthedocs.org/en/latest/) -  Value-Function-Based Reinforcement Learning Framework for Education and Research
+ - [Maja](http://mmlf.sourceforge.net/) - Machine learning framework for problems in Reinforcement Learning in python
+ - [TeachingBox](http://servicerobotik.hs-weingarten.de/en/teachingbox.php) - Java based Reinforcement Learning framework
+ - [Policy Gradient Reinforcement Learning Toolbox for MATLAB](http://www.ias.informatik.tu-darmstadt.de/Research/PolicyGradientToolbox)
+ - [PIQLE](http://sourceforge.net/projects/piqle/) - Platform Implementing Q-Learning and other RL algorithms
+ - [BeliefBox](https://code.google.com/p/beliefbox/) - Bayesian reinforcement learning library and toolkit
+ - [Deep Q-Learning with TensorFlow](https://github.com/nivwusquorum/tensorflow-deepq) - A deep Q learning demonstration using Google Tensorflow
+ - [Atari](https://github.com/Kaixhin/Atari) - Deep Q-networks and asynchronous agents in Torch
+ - [AgentNet](https://github.com/yandexdataschool/AgentNet) - A python library for deep reinforcement learning and custom recurrent networks using Theano+Lasagne.
+ - [Reinforcement Learning Examples by RLCode](https://github.com/rlcode/reinforcement-learning) - A Collection of minimal and clean reinforcement learning examples
+ - [OpenAI Baselines](https://github.com/openai/baselines) - Well tested implementations ([and results](https://github.com/openai/baselines-results)) of reinforcement learning algorithms from OpenAI 
+ - [PyTorch Deep RL](https://github.com/ShangtongZhang/DeepRL) - Popular deep RL algorithm implementations with PyTorch
+ - [ChainerRL](https://github.com/chainer/chainerrl) - Popular deep RL algorithm implementations with Chainer
+ - [Black-DROPS](https://github.com/resibots/blackdrops) - Modular and generic code for the model-based policy search Black-DROPS algorithm (IROS 2017 paper) and easy integration with the [DART](http://dartsim.github.io/) simulator
+ 
+ 
+ 
+ ## Tutorials / Websites
   - Mance Harmon and Stephanie Harmon, [Reinforcement Learning: A Tutorial](http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf)
   - C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. [[Paper]](http://image.diku.dk/igel/paper/RLiaN.pdf)
   - UNSW - [Reinforcement Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/index.html)
