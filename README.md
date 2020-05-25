@@ -30,6 +30,38 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
  - [Online Demos](#online-demos)
  - [Open Source Reinforcement Learning Platforms](#open-source-reinforcement-learning-platforms)
 
+## Codes
+ - Codes for examples and exercises in Richard Sutton and Andrew Barto's Reinforcement Learning: An Introduction
+    - [Python Code](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+    - [MATLAB Code (BROKEN LINK)](http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html)
+    - [C/Lisp Code](http://incompleteideas.net/book/code/code2nd.html)
+    - [Julia Code](https://github.com/Ju-jl/ReinforcementLearningAnIntroduction.jl)
+    - [Book](http://incompleteideas.net/book/RLbook2018.pdf)
+ - Simulation code for Reinforcement Learning Control Problems
+    - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
+    - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
+ - [MATLAB Environment and GUI for Reinforcement Learning](http://www.cs.colostate.edu/~anderson/res/rl/matlabpaper/rl.html)
+ - [Reinforcement Learning Repository - University of Massachusetts, Amherst](http://www-anw.cs.umass.edu/rlr/)
+ - [Brown-UMBC Reinforcement Learning and Planning Library (Java)](http://burlap.cs.brown.edu/)
+ - [Reinforcement Learning in R (MDP, Value Iteration)](http://www.moneyscience.com/pg/blog/StatAlgo/read/635759/reinforcement-learning-in-r-markov-decision-process-mdp-and-value-iteration)
+ - [Reinforcement Learning Environment in Python and MATLAB](https://jamh-web.appspot.com/download.htm)
+ - [RL-Glue](http://glue.rl-community.org/wiki/Main_Page) (standard interface for RL) and [RL-Glue Library](http://library.rl-community.org/wiki/Main_Page)
+ - [PyBrain Library](http://www.pybrain.org/) - Python-Based Reinforcement learning, Artificial intelligence, and Neural network
+ - [RLPy Framework](http://rlpy.readthedocs.org/en/latest/) -  Value-Function-Based Reinforcement Learning Framework for Education and Research
+ - [Maja](http://mmlf.sourceforge.net/) - Machine learning framework for problems in Reinforcement Learning in python
+ - [TeachingBox](http://servicerobotik.hs-weingarten.de/en/teachingbox.php) - Java based Reinforcement Learning framework
+ - [Policy Gradient Reinforcement Learning Toolbox for MATLAB](http://www.ias.informatik.tu-darmstadt.de/Research/PolicyGradientToolbox)
+ - [PIQLE](http://sourceforge.net/projects/piqle/) - Platform Implementing Q-Learning and other RL algorithms
+ - [BeliefBox](https://code.google.com/p/beliefbox/) - Bayesian reinforcement learning library and toolkit
+ - [Deep Q-Learning with TensorFlow](https://github.com/nivwusquorum/tensorflow-deepq) - A deep Q learning demonstration using Google Tensorflow
+ - [Atari](https://github.com/Kaixhin/Atari) - Deep Q-networks and asynchronous agents in Torch
+ - [AgentNet](https://github.com/yandexdataschool/AgentNet) - A python library for deep reinforcement learning and custom recurrent networks using Theano+Lasagne.
+ - [Reinforcement Learning Examples by RLCode](https://github.com/rlcode/reinforcement-learning) - A Collection of minimal and clean reinforcement learning examples
+ - [OpenAI Baselines](https://github.com/openai/baselines) - Well tested implementations ([and results](https://github.com/openai/baselines-results)) of reinforcement learning algorithms from OpenAI 
+ - [PyTorch Deep RL](https://github.com/ShangtongZhang/DeepRL) - Popular deep RL algorithm implementations with PyTorch
+ - [ChainerRL](https://github.com/chainer/chainerrl) - Popular deep RL algorithm implementations with Chainer
+ - [Black-DROPS](https://github.com/resibots/blackdrops) - Modular and generic code for the model-based policy search Black-DROPS algorithm (IROS 2017 paper) and easy integration with the [DART](http://dartsim.github.io/) simulator
+
 ## Theory
 
 ### Lectures
@@ -57,14 +89,13 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
 
 ### Books
  - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998) [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
- - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (2nd Edition, 2018) [[Book]](http://incompleteideas.net/book/RLbook2018.pdf) [[Code]](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
- - Csaba Szepesvari, Algorithms for Reinforcement Learning (2009, updated March 2019) [[Book]](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
- - David Poole and Alan Mackworth, Learning to Act in Artificial Intelligence: Foundations of Computational Agents (2017) [[Book Chapter]](https://artint.info/2e/html/ArtInt2e.Ch12.html)
- - Dimitri P. Bertsekas and John N. Tsitsiklis, Neuro-Dynamic Programming (1996) [[Book (Amazon)]](http://www.amazon.com/Neuro-Dynamic-Programming-Optimization-Neural-Computation/dp/1886529108/ref=sr_1_3?s=books&ie=UTF8&qid=1442461075&sr=1-3&refinements=p_27%3AJohn+N.+Tsitsiklis+Dimitri+P.+Bertsekas) [[Summary]](http://www.mit.edu/~dimitrib/NDP_Encycl.pdf)
- - Mykel J. Kochenderfer, Decision Making Under Uncertainty: Theory and Application (2015) [[Book (Amazon)]](http://www.amazon.com/Decision-Making-Under-Uncertainty-Application/dp/0262029251/ref=sr_1_1?ie=UTF8&qid=1441126550&sr=8-1&keywords=kochenderfer&pebp=1441126551594&perid=1Y6RG2EGRD26659CJHH9)
- - Alexander Zai and Brandon Brown, Deep Reinforcement Learning in Action (2020) [[Book(Manning)]](https://www.manning.com/books/deep-reinforcement-learning-in-action)
- - Marco Wiering and Martijn van Otterlo, Reinforcement Learning (2012) [[Book]](dx.doi.org/10.1007/978-3-642-27645-3)
- - Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach (3rd Edition, 2010) [[Book]](https://faculty.psau.edu.sa/filedownload/doc-7-pdf-a154ffbcec538a4161a406abf62f5b76-original.pdf)
+ - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (2nd Edition, in progress, 2018) [[Book]](http://incompleteideas.net/book/RLbook2018.pdf) [[Code]](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+ - Csaba Szepesvari, Algorithms for Reinforcement Learning [[Book]](http://www.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf)
+ - David Poole and Alan Mackworth, Artificial Intelligence: Foundations of Computational Agents [[Book Chapter]](http://artint.info/html/ArtInt_262.html)
+ - Dimitri P. Bertsekas and John N. Tsitsiklis, Neuro-Dynamic Programming [[Book (Amazon)]](http://www.amazon.com/Neuro-Dynamic-Programming-Optimization-Neural-Computation/dp/1886529108/ref=sr_1_3?s=books&ie=UTF8&qid=1442461075&sr=1-3&refinements=p_27%3AJohn+N.+Tsitsiklis+Dimitri+P.+Bertsekas) [[Summary]](http://www.mit.edu/~dimitrib/NDP_Encycl.pdf)
+ - Mykel J. Kochenderfer, Decision Making Under Uncertainty: Theory and Application [[Book (Amazon)]](http://www.amazon.com/Decision-Making-Under-Uncertainty-Application/dp/0262029251/ref=sr_1_1?ie=UTF8&qid=1441126550&sr=8-1&keywords=kochenderfer&pebp=1441126551594&perid=1Y6RG2EGRD26659CJHH9)
+ - Deep Reinforcement Learning in Action [[Book(Manning)]](https://www.manning.com/books/deep-reinforcement-learning-in-action)
+
 
 ### Surveys
  - Leslie Pack Kaelbling, Michael L. Littman, Andrew W. Moore, Reinforcement Learning: A Survey (JAIR 1996) [[Paper]](https://www.jair.org/index.php/jair/article/download/10166/24110/)
