@@ -225,7 +225,7 @@ Computer Games
  
  
  ## Tutorials / Websites
-  - Mance Harmon and Stephanie Harmon, [Reinforcement Learning: A Tutorial](http://old.nbu.bg/cogs/events/2000/Readings/Petrov/rltutorial.pdf)
+  - Mance Harmon and Stephanie Harmon, [Reinforcement Learning: A Tutorial](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=113F660D9AD1CE44514E677975351371?doi=10.1.1.33.2480&rep=rep1&type=pdf)
   - C. Igel, M.A. Riedmiller, et al., Reinforcement Learning in a Nutshell, ESANN, 2007. [[Paper]](http://image.diku.dk/igel/paper/RLiaN.pdf)
   - UNSW - [Reinforcement Learning](http://www.cse.unsw.edu.au/~cs9417ml/RL1/index.html)
     - [Introduction](http://www.cse.unsw.edu.au/~cs9417ml/RL1/introduction.html)
