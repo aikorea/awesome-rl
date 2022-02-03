@@ -37,6 +37,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
     - [C/Lisp Code](http://incompleteideas.net/book/code/code2nd.html)
     - [Julia Code](https://github.com/Ju-jl/ReinforcementLearningAnIntroduction.jl)
     - [Book](http://incompleteideas.net/book/RLbook2018.pdf)
+    - [Exercise Solutions](https://github.com/LyWangPX/Reinforcement-Learning-2nd-Edition-by-Sutton-Exercise-Solutions)
  - Simulation code for Reinforcement Learning Control Problems
     - [Pole-Cart Problem](http://pages.cs.wisc.edu/~finton/poledriver.html)
     - [Q-learning Controller](http://pages.cs.wisc.edu/~finton/qcontroller.html)
