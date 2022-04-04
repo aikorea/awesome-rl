@@ -255,6 +255,7 @@ Computer Games
   - [RLenv.directory: Explore and find new reinforcement learning environments.](https://rlenv.directory/)
   - Katja Hofmann's talk at NeurIPS '19 - [RL: Past, Present and Future Perspectives](https://slideslive.com/38922817/reinforcement-learning-past-present-and-future-perspectives)
   - [How to Structure, Organize, Track and Manage Reinforcement Learning (RL) Projects](https://neptune.ai/blog/how-to-structure-organize-track-and-manage-reinforcement-learning-rl-projects)
+  - [Reinforcement Learning Cheat Sheet](https://alxthm.com/assets/pdf/rl-cheatsheet.pdf) - A summary of some important concepts and algorithms in RL
 
 
 
