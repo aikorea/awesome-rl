@@ -163,6 +163,7 @@ Traditional Games
   - Backgammon - Gerald Tesauro, "TD-Gammon" game play using TD(λ) (ACM 1995) [[Paper]](http://www.bkgm.com/articles/tesauro/tdl.html)
   - Chess - Jonathan Baxter, Andrew Tridgell and Lex Weaver, "KnightCap" program using TD(λ) (1999) [[arXiv]](http://arxiv.org/pdf/cs/9901002v1.pdf)
   - Chess - Matthew Lai, Giraffe: Using deep reinforcement learning to play chess (2015) [[arXiv]](http://arxiv.org/pdf/1509.01549v2.pdf)
+  - DouDizhu (poker) DouZero: Mastering DouDizhu with Self-Play Deep Reinforcement Learning (2021) [[arXiv]](https://arxiv.org/pdf/2106.06135.pdf)
 
 Computer Games
   - Atari 2600 Games - Volodymyr Mnih, Koray Kavukcuoglu, David Silver et al., Human-level Control through Deep Reinforcement Learning (Nature 2015) [[DOI]](https://dx.doi.org/doi:10.1038/nature14236) [[Paper]](http://www.readcube.com/articles/10.1038%2Fnature14236?shared_access_token=Lo_2hFdW4MuqEcF3CVBZm9RgN0jAjWel9jnR3ZoTv0P5kedCCNjz3FJ2FhQCgXkApOr3ZSsJAldp-tw3IWgTseRnLpAc9xQq-vTA2Z5Ji9lg16_WvCy4SaOgpK5XXA6ecqo8d8J7l4EJsdjwai53GqKt-7JuioG0r3iV67MQIro74l6IxvmcVNKBgOwiMGi8U0izJStLpmQp6Vmi_8Lw_A%3D%3D) [[Code]](https://sites.google.com/a/deepmind.com/dqn/) [[Video]](https://www.youtube.com/watch?v=iqXKQf2BOSE)
@@ -264,6 +265,7 @@ Computer Games
  - [Deep Q-Learning Demo](http://cs.stanford.edu/people/karpathy/convnetjs/demo/rldemo.html) - A deep Q learning demonstration using ConvNetJS
  - [Deep Q-Learning with Tensor Flow](https://github.com/nivwusquorum/tensorflow-deepq) - A deep Q learning demonstration using Google Tensorflow
  - [Reinforcement Learning Demo](http://cs.stanford.edu/people/karpathy/reinforcejs/) - A reinforcement learning demo using reinforcejs by Andrej Karpathy
+ - [DouDizhu Demo (Poker Game)](https://douzero.org/) - A reinforcement learning demo in Chinese poker DouDizhu
 
 
 ## Open Source Reinforcement Learning Platforms
@@ -288,6 +290,7 @@ Computer Games
 - [Unity ML Agents](https://github.com/Unity-Technologies/ml-agents) - Create reinforcement learning environments using the Unity Editor
 - [Intel Coach](https://github.com/NervanaSystems/coach) - Coach is a python reinforcement learning research framework containing implementation of many state-of-the-art algorithms.
 - [Microsoft AirSim](https://microsoft.github.io/AirSim/reinforcement_learning/) - Open source simulator based on Unreal Engine for autonomous vehicles from Microsoft AI & Research.
+- [RLCard](https://github.com/datamllab/rlcard/) - A toolkit for reinforcement learning in card games.
 
 ## valuable Contributors👩‍💻👨‍💻 :
 
