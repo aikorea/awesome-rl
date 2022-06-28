@@ -1,13 +1,12 @@
 # Awesome Reinforcement Learning  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+This page is no longer maintained. 
+
 A curated list of resources dedicated to reinforcement learning.
 
 We have pages for other topics: [awesome-rnn](https://github.com/kjw0612/awesome-rnn), [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision), [awesome-random-forest](https://github.com/kjw0612/awesome-random-forest)
 
 Maintainers: [Hyunsoo Kim](http://sites.duke.edu/hyunsookim/), [Jiwon Kim](http://github.com/kjw0612)
-
-We are looking for more contributors and maintainers!
-
 
 ## Contributing
 Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
