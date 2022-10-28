@@ -87,7 +87,11 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [Solving the basic game of Pong](https://youtu.be/pN7ETkOizGM)
    - [Actor Critic Algorithms](https://youtu.be/w_3mmm0P0j8)
    - [War Robots](https://youtu.be/tm5kQmjfZN8)
-    
+ - [Mutual Information] [Reinforcement Learning Fundamentals](https://www.youtube.com/playlist?list=PLzvYlJMoZ02Dxtwe-MmH4nOB5jYlMGBjr)
+   - [Reinforcement Learning: A Six Part Series](https://youtu.be/NFo9v_yKQXA)
+   - [The Bellman Equations, Dynamic Programming, and Generalized Policy Iteration](https://youtu.be/_j6pvGEchWU)
+   - [Monte Carlo And Off-Policy Methods](https://youtu.be/bpUszPiWM7o)
+   - [TD Learning, Sarsa, and Q-Learning](https://youtu.be/AJiG3ykOxmY)
 
 ### Books
  - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998) [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
