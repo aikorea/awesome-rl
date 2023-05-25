@@ -94,6 +94,7 @@ Please feel free to [pull requests](https://github.com/aikorea/awesome-rl/pulls)
    - [The Bellman Equations, Dynamic Programming, and Generalized Policy Iteration](https://youtu.be/_j6pvGEchWU)
    - [Monte Carlo And Off-Policy Methods](https://youtu.be/bpUszPiWM7o)
    - [TD Learning, Sarsa, and Q-Learning](https://youtu.be/AJiG3ykOxmY)
+   - [OpenAI Researchers on Reinforcement Learning with Human Feedback](https://www.youtube.com/watch?v=RkFS6-GwCxE)
 
 ### Books
  - Richard Sutton and Andrew Barto, Reinforcement Learning: An Introduction (1st Edition, 1998) [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
